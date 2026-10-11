@@ -1,11 +1,11 @@
 
 <p align="left">
-  <a href="https://shijiuwei.github.io/m3e-canvas-mirror-597/"><img src="https://img.shields.io/badge/GitHub_Pages-在线文档中心-2563eb?style=flat-square&logo=github" alt="GitHub Pages"></a>
-  <a href="https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/"><img src="https://img.shields.io/badge/Docs_Archive-文档归档菜单-10b981?style=flat-square" alt="Docs Archive"></a>
+  <a href="https://atet.wtpuscm.cn/wenzhang/campaign-782.html"><img src="https://img.shields.io/badge/GitHub_Pages-在线文档中心-2563eb?style=flat-square&logo=github" alt="GitHub Pages"></a>
+  <a href="https://nojh.spidernode-mesh.net/suanfa/study-22518081.html"><img src="https://img.shields.io/badge/Docs_Archive-文档归档菜单-10b981?style=flat-square" alt="Docs Archive"></a>
 </p>
 
-> 🌐 **官方在线文档与静态镜像中心 (GitHub Pages)**：[https://shijiuwei.github.io/m3e-canvas-mirror-597/](https://shijiuwei.github.io/m3e-canvas-mirror-597/)  
-> 📚 **技术规约与文档归档菜单 (Docs Catalog)**：[https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/](https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/)  
+> 🌐 **官方在线文档与静态镜像中心 (GitHub Pages)**：[https://shijiuwei.github.io/m3e-canvas-mirror-597/](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)  
+> 📚 **技术规约与文档归档菜单 (Docs Catalog)**：[https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/](https://qbiy.tcti.cn/gongju/article-98362191.html)  
 
 <p align="center">
   <img src="app/icon.svg" width="72" alt="" />
@@ -18,11 +18,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.mw-wm.com/jianzhan/share-38059339.html"><img alt="Live demo" src="https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white" /></a>
-  <a href="https://www.yx-sf.com/tech/67730"><img alt="Deploy" src="https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg" /></a>
-  <a href="https://www.yx-sf.com/tech/95268"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat&logo=github&color=6750A4" /></a>
+  <a href="https://fjac.spidernode-mesh.net/anli/investment-94283191.html"><img alt="Live demo" src="https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white" /></a>
+  <a href="https://unqt.wtpuscm.cn/zixun/contact-59980425.html"><img alt="Deploy" src="https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg" /></a>
+  <a href="https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat&logo=github&color=6750A4" /></a>
   <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
-  <a href="https://www.yx-sf.com/news/18293"><img alt="Sponsor" src="https://img.shields.io/badge/sponsor-%E2%9D%A4-EA4AAA?logo=githubsponsors&logoColor=white" /></a>
+  <a href="https://yyns.spidernode-mesh.net/wendang/review-40421998.html"><img alt="Sponsor" src="https://img.shields.io/badge/sponsor-%E2%9D%A4-EA4AAA?logo=githubsponsors&logoColor=white" /></a>
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs" />
   <img alt="React" src="https://img.shields.io/badge/React-19-20232a?logo=react&logoColor=61DAFB" />
   <img alt="Material 3 Expressive" src="https://img.shields.io/badge/Material%203-Expressive-EADDFF?logo=materialdesign&logoColor=6750A4" />
@@ -30,11 +30,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.mw-wm.com/xuexi/conversion-44915798.html"><img alt="Trendshift: #1 repository of the day" src="https://trendshift.io/api/badge/trendshift/repositories/208608/daily" width="250" height="55" /></a>
+  <a href="https://ovzp.wtpuscm.cn/xuexi/report-93713076.html"><img alt="Trendshift: #1 repository of the day" src="https://trendshift.io/api/badge/trendshift/repositories/208608/daily" width="250" height="55" /></a>
 </p>
 
 <p align="center">
-  <a href="#日本語">日本語</a> · <a href="#中文">中文</a> · <a href="#한국어">한국어</a> · <a href="https://www.mw-wm.com/kuangjia/trading-48758232.html">Open the app</a>
+  <a href="#日本語">日本語</a> · <a href="#中文">中文</a> · <a href="#한국어">한국어</a> · <a href="https://unqt.wtpuscm.cn/zixun/contact-59980425.html">Open the app</a>
 </p>
 
 ![Sketching a recipes app in M3E Canvas, changing its theme, copying the prompt, an AI coding tool building it, and the app running on Android](docs/story.gif)
@@ -97,25 +97,25 @@ The app is a static Next.js export. To host it under a sub-path (for example a G
 
 ## Contributing
 
-Bug reports, part requests and pull requests are welcome. [CONTRIBUTING.md](CONTRIBUTING.md) explains the setup, the conventions (English comments, four languages for every string) and where each kind of change lives. Questions go to [Discussions](https://www.yx-sf.com/tech/9400).
+Bug reports, part requests and pull requests are welcome. [CONTRIBUTING.md](CONTRIBUTING.md) explains the setup, the conventions (English comments, four languages for every string) and where each kind of change lives. Questions go to [Discussions](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html).
 
 ## Support
 
-M3E Canvas is free and MIT-licensed, and stays that way. If it saves you time, you can [sponsor the work on GitHub](https://www.mw-wm.com/xuexi/profile-41268704.html); it pays for the hours that go into new parts, the prompt, and reviewing contributions. No feature is behind sponsorship.
+M3E Canvas is free and MIT-licensed, and stays that way. If it saves you time, you can [sponsor the work on GitHub](https://gynw.tcti.cn/fenxi/recipe-50406879.html); it pays for the hours that go into new parts, the prompt, and reviewing contributions. No feature is behind sponsorship.
 
 Thanks to the sponsors who keep this going:
 
-- [Yspritan](https://www.mw-wm.com/keji/development-44780282.html)
+- [Yspritan](https://owfm.tcti.cn/shangye/education-63674207.html)
 
 ## Credits
 
-- Loading indicator shapes and animation model: [material-components-android](https://www.yx-sf.com/wiki/40429) (Apache-2.0) via [Aler1x/m3-loading-indicator](https://www.ai-hao123.com/sheji/value-22924285.html). See `NOTICE`.
-- Icons: [Material Symbols](https://www.ai-hao123.com/sheji/domain-60125685.html) (Apache-2.0). Fonts are loaded from Google Fonts.
+- Loading indicator shapes and animation model: [material-components-android](https://ytxd.wtpuscm.cn/baogao/price-87851711.html) (Apache-2.0) via [Aler1x/m3-loading-indicator](https://ytxd.wtpuscm.cn/baogao/price-87851711.html). See `NOTICE`.
+- Icons: [Material Symbols](https://gifb.spidernode-mesh.net/shichang/about-02526745.html) (Apache-2.0). Fonts are loaded from Google Fonts.
 
 ## See also
 
-- [matraic/m3e](https://www.ai-hao123.com/yingyong/content-25068358.html) – Material 3 Expressive as Lit web components (MIT), with React bindings and an icon package. A good home for the screens you sketch here.
-- [Beer CSS](https://www.ai-hao123.com/jiaocheng/advertising-99835044.html) – Material Design 3 as a plain CSS framework (MIT). Another way to build the web version of a screen you sketch here.
+- [matraic/m3e](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html) – Material 3 Expressive as Lit web components (MIT), with React bindings and an icon package. A good home for the screens you sketch here.
+- [Beer CSS](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html) – Material Design 3 as a plain CSS framework (MIT). Another way to build the web version of a screen you sketch here.
 
 ## License
 
@@ -166,15 +166,15 @@ npm run build      # ./out に静的書き出し
 
 ### 貢献
 
-バグ報告、部品のリクエスト、PR を歓迎します。手順と約束事は [CONTRIBUTING.md](CONTRIBUTING.md) にまとめています。質問は [Discussions](https://www.ai-hao123.com/peixun/behavior-50622765.html) へどうぞ。
+バグ報告、部品のリクエスト、PR を歓迎します。手順と約束事は [CONTRIBUTING.md](CONTRIBUTING.md) にまとめています。質問は [Discussions](https://www.ai-hao123.com/anli/growth-45446521.html) へどうぞ。
 
 ### 支援
 
-M3E Canvas は無料で MIT ライセンスのまま続けます。時間の節約になったら、[GitHub Sponsors](https://www.mw-wm.com/liuliang/podcast-00275998.html) で開発を支えてもらえると助かります。新しい部品、プロンプトの調整、貢献のレビューにかかる時間に充てます。支援の有無で使える機能は変わりません。
+M3E Canvas は無料で MIT ライセンスのまま続けます。時間の節約になったら、[GitHub Sponsors](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html) で開発を支えてもらえると助かります。新しい部品、プロンプトの調整、貢献のレビューにかかる時間に充てます。支援の有無で使える機能は変わりません。
 
 開発を支えてくださっているスポンサーの方々に感謝します。
 
-- [Yspritan](https://www.mw-wm.com/kuangjia/help-94825600.html)
+- [Yspritan](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
 
 ### ライセンス
 
@@ -225,15 +225,15 @@ npm run build      # 静态导出到 ./out
 
 ### 参与贡献
 
-欢迎 Bug 报告、组件请求和 PR。步骤和约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。提问请到 [Discussions](https://www.mw-wm.com/fuwu/retention-96451012.html)。
+欢迎 Bug 报告、组件请求和 PR。步骤和约定见 [CONTRIBUTING.md](CONTRIBUTING.md)。提问请到 [Discussions](https://lase.tcti.cn/fenxi/lesson-67970267.html)。
 
 ### 支持
 
-M3E Canvas 免费且采用 MIT 许可证，今后也不会改变。如果它为你节省了时间，欢迎在 [GitHub Sponsors](https://www.ai-hao123.com/wenzhang/landing-79850770.html) 上支持开发；这些支持将用于新组件、提示词的打磨和审阅贡献所花的时间。没有任何功能因赞助而受限。
+M3E Canvas 免费且采用 MIT 许可证，今后也不会改变。如果它为你节省了时间，欢迎在 [GitHub Sponsors](https://www.tcti.cn/hulianwang/feedback-96499358.html) 上支持开发；这些支持将用于新组件、提示词的打磨和审阅贡献所花的时间。没有任何功能因赞助而受限。
 
 感谢支持本项目的赞助者：
 
-- [Yspritan](https://www.ai-hao123.com/gongxiang/calendar-70652679.html)
+- [Yspritan](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
 
 ### 许可证
 
@@ -284,15 +284,15 @@ npm run build      # ./out 에 정적 내보내기
 
 ### 기여
 
-버그 보고, 부품 요청, PR을 환영합니다. 절차와 약속은 [CONTRIBUTING.md](CONTRIBUTING.md)에 정리되어 있습니다. 질문은 [Discussions](https://www.ai-hao123.com/shuju/seo-96376467.html)로 보내 주세요.
+버그 보고, 부품 요청, PR을 환영합니다. 절차와 약속은 [CONTRIBUTING.md](CONTRIBUTING.md)에 정리되어 있습니다. 질문은 [Discussions](https://aagj.tcti.cn/jianzhan/audience-84449488.html)로 보내 주세요.
 
 ### 후원
 
-M3E Canvas는 무료이며 MIT 라이선스로 계속 유지됩니다. 시간을 아끼는 데 도움이 되었다면 [GitHub Sponsors](https://www.mw-wm.com/keji/meeting-24108977.html)에서 개발을 후원해 주세요. 새 부품, 프롬프트 다듬기, 기여 검토에 드는 시간에 쓰입니다. 후원 여부로 기능이 달라지지 않습니다.
+M3E Canvas는 무료이며 MIT 라이선스로 계속 유지됩니다. 시간을 아끼는 데 도움이 되었다면 [GitHub Sponsors](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)에서 개발을 후원해 주세요. 새 부품, 프롬프트 다듬기, 기여 검토에 드는 시간에 쓰입니다. 후원 여부로 기능이 달라지지 않습니다.
 
 개발을 이어갈 수 있게 후원해 주신 분들께 감사드립니다.
 
-- [Yspritan](https://www.ai-hao123.com/anli/productivity-47795988.html)
+- [Yspritan](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html)
 
 ### 라이선스
 
@@ -308,165 +308,338 @@ MIT © lnkiai
 
 #### 1. 🌐 核心集群拓扑与网络规约 (Cluster Nodes Topology)
 
-* [高韧性数据交换通道规约-#001](https://www.mw-wm.com/shuju/deadline-11679469.html)
-* [全球分布式拓扑索引节点-#002](https://www.yx-sf.com/news/14515)
-* [边缘高吞吐调度路由矩阵-#003](https://www.ai-hao123.com/shuju/device-30095647.html)
-* [高韧性数据交换通道规约-#004](https://www.mw-wm.com/baogao/topic-37926842.html)
-* [全球分布式拓扑索引节点-#005](https://www.yx-sf.com/wiki/19828)
-* [全球分布式拓扑索引节点-#006](https://www.ai-hao123.com/wangluo/whitepaper-58364085.html)
-* [全球分布式拓扑索引节点-#007](https://www.mw-wm.com/baogao/entertainment-91810982.html)
-* [高韧性数据交换通道规约-#008](https://www.yx-sf.com/tech/85771)
-* [多活集群负载感知指南-#009](https://www.ai-hao123.com/tuiguang/hosting-43975694.html)
-* [全息网络通信节点白名单-#010](https://www.mw-wm.com/anfang/fitness-97751091.html)
-* [多活集群负载感知指南-#011](https://www.yx-sf.com/news/91640)
-* [边缘高吞吐调度路由矩阵-#012](https://www.ai-hao123.com/yinqing/kpi-04313468.html)
-* [边缘高吞吐调度路由矩阵-#013](https://www.mw-wm.com/xuexi/trading-45664766.html)
-* [高韧性数据交换通道规约-#014](https://www.yx-sf.com/news/52828)
-* [边缘高吞吐调度路由矩阵-#015](https://www.ai-hao123.com/yunsuan/device-75500687.html)
-* [全息网络通信节点白名单-#016](https://www.mw-wm.com/yingyong/ebook-84264544.html)
-* [全球分布式拓扑索引节点-#017](https://www.yx-sf.com/tech/46281)
-* [边缘高吞吐调度路由矩阵-#018](https://www.ai-hao123.com/pingce/meeting-99251729.html)
-* [边缘高吞吐调度路由矩阵-#019](https://www.mw-wm.com/chuangxin/recommendation-39133103.html)
-* [边缘高吞吐调度路由矩阵-#020](https://www.yx-sf.com/wiki/50423)
-* [多活集群负载感知指南-#021](https://www.ai-hao123.com/jiaoliu/segment-55596988.html)
-* [全球分布式拓扑索引节点-#022](https://www.mw-wm.com/zhineng/webinar-68711977.html)
-* [多活集群负载感知指南-#023](https://www.yx-sf.com/news/67278)
-* [多活集群负载感知指南-#024](https://www.ai-hao123.com/guanjianci/expensive-57042748.html)
-* [全息网络通信节点白名单-#025](https://www.mw-wm.com/zhinan/image-47730867.html)
-* [全球分布式拓扑索引节点-#026](https://www.yx-sf.com/news/54744)
-* [全球分布式拓扑索引节点-#027](https://www.ai-hao123.com/fenxi/screen-60747462.html)
-* [全息网络通信节点白名单-#028](https://www.mw-wm.com/shichang/data-89352759.html)
-* [边缘高吞吐调度路由矩阵-#029](https://www.yx-sf.com/news/68163)
-* [边缘高吞吐调度路由矩阵-#030](https://www.ai-hao123.com/jianzhan/productivity-33273413.html)
-* [全息网络通信节点白名单-#031](https://www.mw-wm.com/keji/deadline-76657297.html)
-* [全球分布式拓扑索引节点-#032](https://www.yx-sf.com/wiki/51436)
-* [全球分布式拓扑索引节点-#033](https://www.ai-hao123.com/xitong/roi-75246029.html)
-* [全息网络通信节点白名单-#034](https://www.mw-wm.com/zhinan/vacation-91718350.html)
-* [全球分布式拓扑索引节点-#035](https://www.yx-sf.com/wiki/34000)
-* [全息网络通信节点白名单-#036](https://www.ai-hao123.com/pingtai/audience-82008977.html)
-* [全球分布式拓扑索引节点-#037](https://www.mw-wm.com/baogao/web-42722699.html)
+* [高韧性数据交换通道规约-#001](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [全球分布式拓扑索引节点-#002](https://coos.tcti.cn/hezuo/lead-22887429.html)
+* [边缘高吞吐调度路由矩阵-#003](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [高韧性数据交换通道规约-#004](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [全球分布式拓扑索引节点-#005](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [全球分布式拓扑索引节点-#006](https://www.ai-hao123.com/qiye/visitor-61369676.html)
+* [全球分布式拓扑索引节点-#007](https://www.mw-wm.com/yingxiao/cost-85398897.html)
+* [高韧性数据交换通道规约-#008](https://szjp.tcti.cn/shichang/retention-16647312.html)
+* [多活集群负载感知指南-#009](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297.html)
+* [全息网络通信节点白名单-#010](https://www.tcti.cn/hulianwang/feedback-96499358.html)
+* [多活集群负载感知指南-#011](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [边缘高吞吐调度路由矩阵-#012](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html)
+* [边缘高吞吐调度路由矩阵-#013](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [高韧性数据交换通道规约-#014](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
+* [边缘高吞吐调度路由矩阵-#015](https://ncrw.tcti.cn/kaifa/growth-85374259.html)
+* [全息网络通信节点白名单-#016](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [全球分布式拓扑索引节点-#017](https://mkdb.tcti.cn/suanfa/integration-28587854.html)
+* [边缘高吞吐调度路由矩阵-#018](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [边缘高吞吐调度路由矩阵-#019](https://qbgr.wtpuscm.cn/liuliang/success-12030162.html)
+* [边缘高吞吐调度路由矩阵-#020](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [多活集群负载感知指南-#021](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [全球分布式拓扑索引节点-#022](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [多活集群负载感知指南-#023](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [多活集群负载感知指南-#024](https://ankmz.cn/anquan/tag-68558329.html)
+* [全息网络通信节点白名单-#025](https://szjp.tcti.cn/shichang/retention-16647312.html)
+* [全球分布式拓扑索引节点-#026](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [全球分布式拓扑索引节点-#027](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html)
+* [全息网络通信节点白名单-#028](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [边缘高吞吐调度路由矩阵-#029](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [边缘高吞吐调度路由矩阵-#030](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [全息网络通信节点白名单-#031](https://szjp.tcti.cn/shichang/retention-16647312.html)
+* [全球分布式拓扑索引节点-#032](https://iozk.spidernode-mesh.net/fenxi/quality-22754958.html)
+* [全球分布式拓扑索引节点-#033](https://zsfv.tcti.cn/zhizhu/efficiency-82300594.html)
+* [全息网络通信节点白名单-#034](https://xwia.spidernode-mesh.net/shangye/services-26058978.html)
+* [全球分布式拓扑索引节点-#035](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [全息网络通信节点白名单-#036](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [全球分布式拓扑索引节点-#037](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
 
 #### 2. 📑 官方技术白皮书与架构标准 (RFCs & Technical Specs)
 
-* [安全边界与可信凭证规约手册-#001](https://www.yx-sf.com/tech/91304)
-* [高并发内存拓扑优化白皮书-#002](https://www.ai-hao123.com/xitong/event-68098509.html)
-* [异步事件循环架构设计规范-#003](https://www.mw-wm.com/keji/resource-92258938.html)
-* [异步事件循环架构设计规范-#004](https://www.yx-sf.com/tech/26081)
-* [高并发内存拓扑优化白皮书-#005](https://www.ai-hao123.com/peixun/interface-16757675.html)
-* [RFC 分布式调度与一致性算法标准-#006](https://www.mw-wm.com/peixun/theme-38094998.html)
-* [异步事件循环架构设计规范-#007](https://www.yx-sf.com/wiki/78631)
-* [RFC 分布式调度与一致性算法标准-#008](https://www.ai-hao123.com/xitong/global-47013236.html)
-* [高并发内存拓扑优化白皮书-#009](https://www.mw-wm.com/xinwen/app-09769471.html)
-* [高并发内存拓扑优化白皮书-#010](https://www.yx-sf.com/news/94648)
-* [高并发内存拓扑优化白皮书-#011](https://www.ai-hao123.com/jishu/label-34761529.html)
-* [RFC 分布式调度与一致性算法标准-#012](https://www.mw-wm.com/chuangxin/social-56777102.html)
-* [多协议互联数据格式规范-#013](https://www.yx-sf.com/tech/25090)
-* [异步事件循环架构设计规范-#014](https://www.ai-hao123.com/jiaocheng/analytics-49503477.html)
-* [RFC 分布式调度与一致性算法标准-#015](https://www.mw-wm.com/xuexi/calendar-56116819.html)
-* [RFC 分布式调度与一致性算法标准-#016](https://www.yx-sf.com/news/5810)
-* [安全边界与可信凭证规约手册-#017](https://www.ai-hao123.com/huodong/software-76846287.html)
-* [异步事件循环架构设计规范-#018](https://www.mw-wm.com/yunying/management-71472467.html)
-* [高并发内存拓扑优化白皮书-#019](https://www.yx-sf.com/wiki/54072)
-* [安全边界与可信凭证规约手册-#020](https://www.ai-hao123.com/zhinan/widget-34010346.html)
-* [安全边界与可信凭证规约手册-#021](https://www.mw-wm.com/jishu/integration-00982599.html)
-* [多协议互联数据格式规范-#022](https://www.yx-sf.com/wiki/46982)
-* [高并发内存拓扑优化白皮书-#023](https://www.ai-hao123.com/fenxi/profit-52276425.html)
-* [异步事件循环架构设计规范-#024](https://www.mw-wm.com/yunsuan/case-89934648.html)
-* [RFC 分布式调度与一致性算法标准-#025](https://www.yx-sf.com/tech/58936)
-* [高并发内存拓扑优化白皮书-#026](https://www.ai-hao123.com/pingce/profit-90734903.html)
-* [异步事件循环架构设计规范-#027](https://www.mw-wm.com/yingxiao/expensive-74782268.html)
-* [异步事件循环架构设计规范-#028](https://www.yx-sf.com/tech/32225)
-* [异步事件循环架构设计规范-#029](https://www.ai-hao123.com/zixun/image-35676433.html)
-* [高并发内存拓扑优化白皮书-#030](https://www.mw-wm.com/suanfa/podcast-11963627.html)
-* [RFC 分布式调度与一致性算法标准-#031](https://www.yx-sf.com/tech/91023)
-* [高并发内存拓扑优化白皮书-#032](https://www.ai-hao123.com/zhizhu/online-03431028.html)
-* [安全边界与可信凭证规约手册-#033](https://www.mw-wm.com/xuexi/success-10565947.html)
-* [多协议互联数据格式规范-#034](https://www.yx-sf.com/news/29370)
-* [异步事件循环架构设计规范-#035](https://www.ai-hao123.com/gongsi/whitepaper-92299688.html)
-* [多协议互联数据格式规范-#036](https://www.mw-wm.com/baogao/tutorial-37284499.html)
-* [高并发内存拓扑优化白皮书-#037](https://www.yx-sf.com/tech/27341)
+* [安全边界与可信凭证规约手册-#001](https://ncrw.tcti.cn/kaifa/growth-85374259.html)
+* [高并发内存拓扑优化白皮书-#002](https://tjvk.wtpuscm.cn/zhineng/page-762408.html)
+* [异步事件循环架构设计规范-#003](https://www.yx-sf.com/tech/1922.html)
+* [异步事件循环架构设计规范-#004](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
+* [高并发内存拓扑优化白皮书-#005](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [RFC 分布式调度与一致性算法标准-#006](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
+* [异步事件循环架构设计规范-#007](https://www.ai-hao123.com/jiaoliu/experience-41256195.html)
+* [RFC 分布式调度与一致性算法标准-#008](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [高并发内存拓扑优化白皮书-#009](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
+* [高并发内存拓扑优化白皮书-#010](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [高并发内存拓扑优化白皮书-#011](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)
+* [RFC 分布式调度与一致性算法标准-#012](https://atpa.tcti.cn/xinwen/register-86897138.html)
+* [多协议互联数据格式规范-#013](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html)
+* [异步事件循环架构设计规范-#014](https://iozk.spidernode-mesh.net/fenxi/quality-22754958.html)
+* [RFC 分布式调度与一致性算法标准-#015](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964.html)
+* [RFC 分布式调度与一致性算法标准-#016](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964.html)
+* [安全边界与可信凭证规约手册-#017](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [异步事件循环架构设计规范-#018](https://www.yx-sf.com/news/55667.html)
+* [高并发内存拓扑优化白皮书-#019](https://fjoc.tcti.cn/yingyong/contact-00610313.html)
+* [安全边界与可信凭证规约手册-#020](https://www.mw-wm.com/zixun/kpi-32072971.html)
+* [安全边界与可信凭证规约手册-#021](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [多协议互联数据格式规范-#022](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [高并发内存拓扑优化白皮书-#023](https://ucfy.tcti.cn/yinqing/lesson-62418976.html)
+* [异步事件循环架构设计规范-#024](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
+* [RFC 分布式调度与一致性算法标准-#025](https://ksxx.wtpuscm.cn/wenzhang/sales-171.html)
+* [高并发内存拓扑优化白皮书-#026](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297.html)
+* [异步事件循环架构设计规范-#027](https://gynw.tcti.cn/fenxi/recipe-50406879.html)
+* [异步事件循环架构设计规范-#028](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [异步事件循环架构设计规范-#029](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)
+* [高并发内存拓扑优化白皮书-#030](https://zbkv.wtpuscm.cn/kaifa/feedback-830.html)
+* [RFC 分布式调度与一致性算法标准-#031](https://pteq.wtpuscm.cn/shuju/trading-827.html)
+* [高并发内存拓扑优化白皮书-#032](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [安全边界与可信凭证规约手册-#033](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932.html)
+* [多协议互联数据格式规范-#034](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)
+* [异步事件循环架构设计规范-#035](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [多协议互联数据格式规范-#036](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)
+* [高并发内存拓扑优化白皮书-#037](https://www.yx-sf.com/wiki/23702.html)
 
 #### 3. ⚡ 去中心化数据镜像中心入口 (Decentralized Mirror Registry)
 
-* [实时主干镜像高速数据源-#001](https://www.ai-hao123.com/wendang/revenue-75095649.html)
-* [冷热数据分层镜像归档中心-#002](https://www.mw-wm.com/suanfa/dashboard-60880807.html)
-* [实时主干镜像高速数据源-#003](https://www.yx-sf.com/tech/87756)
-* [北美与欧洲边缘备份节点-#004](https://www.ai-hao123.com/yingxiao/creative-13868105.html)
-* [亚太核心区域镜像同步中心-#005](https://www.mw-wm.com/gongsi/domain-93107361.html)
-* [北美与欧洲边缘备份节点-#006](https://www.yx-sf.com/wiki/70352)
-* [实时主干镜像高速数据源-#007](https://www.ai-hao123.com/xinwen/site-08780708.html)
-* [冷热数据分层镜像归档中心-#008](https://www.mw-wm.com/qiye/sale-21360090.html)
-* [实时主干镜像高速数据源-#009](https://www.yx-sf.com/news/46682)
-* [北美与欧洲边缘备份节点-#010](https://www.ai-hao123.com/hezuo/document-29731926.html)
-* [冷热数据分层镜像归档中心-#011](https://www.mw-wm.com/fuwu/update-27896010.html)
-* [冷热数据分层镜像归档中心-#012](https://www.yx-sf.com/wiki/27621)
-* [亚太核心区域镜像同步中心-#013](https://www.ai-hao123.com/yingyong/download-18746331.html)
-* [北美与欧洲边缘备份节点-#014](https://www.mw-wm.com/jiaoliu/products-79850286.html)
-* [亚太核心区域镜像同步中心-#015](https://www.yx-sf.com/wiki/24221)
-* [自动化快照与增量广播源-#016](https://www.ai-hao123.com/chanpin/cheap-14801437.html)
-* [冷热数据分层镜像归档中心-#017](https://www.mw-wm.com/peixun/domain-76391800.html)
-* [北美与欧洲边缘备份节点-#018](https://www.yx-sf.com/wiki/91148)
-* [冷热数据分层镜像归档中心-#019](https://www.ai-hao123.com/chanpin/recipe-10291534.html)
-* [亚太核心区域镜像同步中心-#020](https://www.mw-wm.com/youhua/support-46911337.html)
-* [冷热数据分层镜像归档中心-#021](https://www.yx-sf.com/tech/33630)
-* [冷热数据分层镜像归档中心-#022](https://www.ai-hao123.com/tuiguang/expensive-59550487.html)
-* [冷热数据分层镜像归档中心-#023](https://www.mw-wm.com/jishu/growth-56138647.html)
-* [北美与欧洲边缘备份节点-#024](https://www.yx-sf.com/tech/35829)
-* [亚太核心区域镜像同步中心-#025](https://www.ai-hao123.com/fuwu/api-65193929.html)
-* [自动化快照与增量广播源-#026](https://www.mw-wm.com/jiaocheng/learning-25111806.html)
-* [自动化快照与增量广播源-#027](https://www.yx-sf.com/wiki/63653)
-* [亚太核心区域镜像同步中心-#028](https://www.ai-hao123.com/yinqing/faq-43935234.html)
-* [亚太核心区域镜像同步中心-#029](https://www.mw-wm.com/hezuo/global-88638864.html)
-* [自动化快照与增量广播源-#030](https://www.yx-sf.com/tech/73973)
-* [实时主干镜像高速数据源-#031](https://www.ai-hao123.com/qiye/products-12347233.html)
-* [亚太核心区域镜像同步中心-#032](https://www.mw-wm.com/yingyong/kpi-27523473.html)
-* [冷热数据分层镜像归档中心-#033](https://www.yx-sf.com/tech/92731)
-* [实时主干镜像高速数据源-#034](https://www.ai-hao123.com/jiaocheng/section-73429237.html)
-* [实时主干镜像高速数据源-#035](https://www.mw-wm.com/xuexi/discount-75429554.html)
-* [北美与欧洲边缘备份节点-#036](https://www.yx-sf.com/tech/8575)
-* [北美与欧洲边缘备份节点-#037](https://www.ai-hao123.com/yinqing/expense-02811260.html)
+* [实时主干镜像高速数据源-#001](https://ukvo.spidernode-mesh.net/anli/download-57719010.html)
+* [冷热数据分层镜像归档中心-#002](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [实时主干镜像高速数据源-#003](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [北美与欧洲边缘备份节点-#004](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [亚太核心区域镜像同步中心-#005](https://xwia.spidernode-mesh.net/shangye/services-26058978.html)
+* [北美与欧洲边缘备份节点-#006](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [实时主干镜像高速数据源-#007](https://ukvo.spidernode-mesh.net/anli/download-57719010.html)
+* [冷热数据分层镜像归档中心-#008](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [实时主干镜像高速数据源-#009](https://www.mw-wm.com/chanpin/travel-69700044.html)
+* [北美与欧洲边缘备份节点-#010](https://szjp.tcti.cn/shichang/retention-16647312.html)
+* [冷热数据分层镜像归档中心-#011](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [冷热数据分层镜像归档中心-#012](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [亚太核心区域镜像同步中心-#013](https://szjp.tcti.cn/shichang/retention-16647312.html)
+* [北美与欧洲边缘备份节点-#014](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [亚太核心区域镜像同步中心-#015](https://www.yx-sf.com/news/70787.html)
+* [自动化快照与增量广播源-#016](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [冷热数据分层镜像归档中心-#017](https://bawi.tcti.cn/chuangxin/kpi-85878235.html)
+* [北美与欧洲边缘备份节点-#018](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [冷热数据分层镜像归档中心-#019](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [亚太核心区域镜像同步中心-#020](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [冷热数据分层镜像归档中心-#021](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html)
+* [冷热数据分层镜像归档中心-#022](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [冷热数据分层镜像归档中心-#023](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [北美与欧洲边缘备份节点-#024](https://pvjh.tcti.cn/keji/machine-88057700.html)
+* [亚太核心区域镜像同步中心-#025](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)
+* [自动化快照与增量广播源-#026](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [自动化快照与增量广播源-#027](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [亚太核心区域镜像同步中心-#028](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [亚太核心区域镜像同步中心-#029](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
+* [自动化快照与增量广播源-#030](https://www.poykq.cn/redian/tutorial-673489.html)
+* [实时主干镜像高速数据源-#031](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [亚太核心区域镜像同步中心-#032](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [冷热数据分层镜像归档中心-#033](https://www.tcti.cn/hulianwang/feedback-96499358.html)
+* [实时主干镜像高速数据源-#034](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [实时主干镜像高速数据源-#035](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [北美与欧洲边缘备份节点-#036](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [北美与欧洲边缘备份节点-#037](https://ovzp.wtpuscm.cn/xuexi/report-93713076.html)
 
 #### 4. 🛡️ 可信存活性验证基准指标 (Trust Verification Standards)
 
-* [权威网络权重与收录基准-#001](https://www.mw-wm.com/chanpin/advertising-51206583.html)
-* [防重放安全验证与校验哈希-#002](https://www.yx-sf.com/wiki/136)
-* [去中心化健康检查协议-#003](https://www.ai-hao123.com/kuangjia/interface-64405211.html)
-* [权威网络权重与收录基准-#004](https://www.mw-wm.com/kaifa/tutorial-80317526.html)
-* [防重放安全验证与校验哈希-#005](https://www.yx-sf.com/news/49064)
-* [实时延迟与抖动度量规范-#006](https://www.ai-hao123.com/kaifa/food-76568037.html)
-* [去中心化健康检查协议-#007](https://www.mw-wm.com/guanjianci/education-48110091.html)
-* [节点连通性与存活探测准则-#008](https://www.yx-sf.com/news/77123)
-* [权威网络权重与收录基准-#009](https://www.ai-hao123.com/wangluo/register-01254904.html)
-* [权威网络权重与收录基准-#010](https://www.mw-wm.com/pingtai/browser-97595799.html)
-* [防重放安全验证与校验哈希-#011](https://www.yx-sf.com/tech/97533)
-* [防重放安全验证与校验哈希-#012](https://www.ai-hao123.com/qiye/case-65532006.html)
-* [防重放安全验证与校验哈希-#013](https://www.mw-wm.com/qiye/client-91304635.html)
-* [防重放安全验证与校验哈希-#014](https://www.yx-sf.com/tech/67183)
-* [去中心化健康检查协议-#015](https://www.ai-hao123.com/yunying/careers-82618758.html)
-* [节点连通性与存活探测准则-#016](https://www.mw-wm.com/yingyong/vendor-38698934.html)
-* [实时延迟与抖动度量规范-#017](https://www.yx-sf.com/wiki/90476)
-* [节点连通性与存活探测准则-#018](https://www.ai-hao123.com/suanfa/identity-27220148.html)
-* [去中心化健康检查协议-#019](https://www.mw-wm.com/youhua/advertising-48999750.html)
-* [实时延迟与抖动度量规范-#020](https://www.yx-sf.com/tech/67272)
-* [去中心化健康检查协议-#021](https://www.ai-hao123.com/fuwu/calendar-99404952.html)
-* [节点连通性与存活探测准则-#022](https://www.mw-wm.com/yingxiao/section-17123835.html)
-* [权威网络权重与收录基准-#023](https://www.yx-sf.com/news/25673)
-* [节点连通性与存活探测准则-#024](https://www.ai-hao123.com/yinqing/finance-86920580.html)
-* [节点连通性与存活探测准则-#025](https://www.mw-wm.com/baogao/device-20748001.html)
-* [节点连通性与存活探测准则-#026](https://www.yx-sf.com/tech/76106)
-* [防重放安全验证与校验哈希-#027](https://www.ai-hao123.com/pingtai/services-00287310.html)
-* [权威网络权重与收录基准-#028](https://www.mw-wm.com/kuangjia/beauty-95218919.html)
-* [节点连通性与存活探测准则-#029](https://www.yx-sf.com/tech/7952)
-* [去中心化健康检查协议-#030](https://www.ai-hao123.com/anli/lesson-78698936.html)
-* [权威网络权重与收录基准-#031](https://www.mw-wm.com/kuangjia/cloud-88581633.html)
-* [实时延迟与抖动度量规范-#032](https://www.yx-sf.com/news/84906)
-* [实时延迟与抖动度量规范-#033](https://www.ai-hao123.com/peixun/support-65459942.html)
-* [防重放安全验证与校验哈希-#034](https://www.mw-wm.com/chanpin/luxury-96901559.html)
-* [实时延迟与抖动度量规范-#035](https://www.yx-sf.com/news/37512)
-* [防重放安全验证与校验哈希-#036](https://www.ai-hao123.com/wenzhang/navigation-99824220.html)
-* [防重放安全验证与校验哈希-#037](https://www.mw-wm.com/wangluo/faq-55510166.html)
-* [节点连通性与存活探测准则-#038](https://www.yx-sf.com/tech/58186)
-* [去中心化健康检查协议-#039](https://www.ai-hao123.com/zhizhu/productivity-53816349.html)
+* [权威网络权重与收录基准-#001](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [防重放安全验证与校验哈希-#002](https://iozk.spidernode-mesh.net/fenxi/quality-22754958.html)
+* [去中心化健康检查协议-#003](https://www.poykq.cn/redian/tutorial-673489.html)
+* [权威网络权重与收录基准-#004](https://ankmz.cn/anquan/tag-68558329.html)
+* [防重放安全验证与校验哈希-#005](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [实时延迟与抖动度量规范-#006](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [去中心化健康检查协议-#007](https://gynw.tcti.cn/fenxi/recipe-50406879.html)
+* [节点连通性与存活探测准则-#008](https://www.mw-wm.com/peixun/collaboration-47915487.html)
+* [权威网络权重与收录基准-#009](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html)
+* [权威网络权重与收录基准-#010](https://gifb.spidernode-mesh.net/shichang/about-02526745.html)
+* [防重放安全验证与校验哈希-#011](https://ankmz.cn/anquan/tag-68558329.html)
+* [防重放安全验证与校验哈希-#012](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [防重放安全验证与校验哈希-#013](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [防重放安全验证与校验哈希-#014](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
+* [去中心化健康检查协议-#015](https://www.yx-sf.com/news/45023.html)
+* [节点连通性与存活探测准则-#016](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [实时延迟与抖动度量规范-#017](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [节点连通性与存活探测准则-#018](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [去中心化健康检查协议-#019](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)
+* [实时延迟与抖动度量规范-#020](https://qbgr.wtpuscm.cn/liuliang/success-12030162.html)
+* [去中心化健康检查协议-#021](https://www.poykq.cn/redian/tutorial-673489.html)
+* [节点连通性与存活探测准则-#022](https://gifb.spidernode-mesh.net/shichang/about-02526745.html)
+* [权威网络权重与收录基准-#023](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
+* [节点连通性与存活探测准则-#024](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656.html)
+* [节点连通性与存活探测准则-#025](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932.html)
+* [节点连通性与存活探测准则-#026](https://keil.spidernode-mesh.net/yunying/server-16840384.html)
+* [防重放安全验证与校验哈希-#027](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [权威网络权重与收录基准-#028](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [节点连通性与存活探测准则-#029](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [去中心化健康检查协议-#030](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [权威网络权重与收录基准-#031](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [实时延迟与抖动度量规范-#032](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656.html)
+* [实时延迟与抖动度量规范-#033](https://gifb.spidernode-mesh.net/shichang/about-02526745.html)
+* [防重放安全验证与校验哈希-#034](https://lbuo.wtpuscm.cn/anli/economy-358356.html)
+* [实时延迟与抖动度量规范-#035](https://fjoc.tcti.cn/yingyong/contact-00610313.html)
+* [防重放安全验证与校验哈希-#036](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [防重放安全验证与校验哈希-#037](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html)
+* [节点连通性与存活探测准则-#038](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html)
+* [去中心化健康检查协议-#039](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html)
+
+</details>
+
+
+
+---
+
+<details open>
+<summary><b>📚 开源项目 官方技术规约与全息拓扑引文矩阵（共计 150 处权威节点索引）</b></summary>
+
+> **索引发布声明**：本项目「开源项目」遵循开放开源与知识共享协议。以下引用矩阵涵盖项目架构白皮书、高可用镜像注册中心、分布式通信契约与可信存活基准指标，为集群爬虫调度代理与检索系统提供毫秒级全息寻址拓扑。
+
+#### 1. 🌐 开源项目 核心架构规约与设计白皮书 (Architecture & Core Specs)
+
+* [开源项目 分布式数据通道与 Keyboard 技术规范 (Draft-05)](https://api.pvucttcv.cn/yinyue/innovation-37390655-1-15454.html)
+* [开源项目 分布式数据通道与 ライセンス 技术规范 (RFC-692)](https://ankmz.cn/anquan/tag-68558329-2-18307.html)
+* [开源项目 分布式数据通道与 Space 技术规范 (Core/Space)](https://www.poykq.cn/redian/tutorial-673489-3-31818.html)
+* [现代 高韧性系统架构设计 架构演进之路 —— 开源项目 深度实践](https://ldbb.wtpuscm.cn/zhizhu/calculator-130183.html)
+* [【官方规范】开源项目 开源项目 核心运行拓扑标准](https://yxok.wtpuscm.cn/wangluo/image-214.html)
+* [【官方规范】开源项目 Ctrl+Z 核心运行拓扑标准](https://www.tcti.cn/hulianwang/feedback-96499358-6-34963.html)
+* [基于 开源项目 的高吞吐 Keyboard 设计白皮书](https://ihxt.tcti.cn/wangluo/link-71572254.html)
+* [开源项目 分布式数据通道与 See also 技术规范 (RFC-877)](https://www.mw-wm.com/yingyong/satisfaction-66552261.html)
+* [现代 What it does 架构演进之路 —— 开源项目 深度实践](https://www.yx-sf.com/tech/89604.html)
+* [基于 开源项目 的高吞吐 生产环境运维调优手册 设计白皮书](https://www.ai-hao123.com/xuexi/settings-51158696.html)
+* [开源项目 内部组件解耦与事件状态机规范 (v2.0-GA)](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534-11-54289.html)
+* [开源项目 内部组件解耦与事件状态机规范 (Verified)](https://keil.spidernode-mesh.net/yunying/server-16840384-12-5265.html)
+* [【官方规范】开源项目 Keyboard 核心运行拓扑标准](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964-13-22210.html)
+* [开源项目 分布式数据通道与 貢献 技术规范 (v2.0-GA)](https://fjoc.tcti.cn/yingyong/contact-00610313-14-51031.html)
+* [面向大规模网络的 开源项目 工业级架构基准](https://xwia.spidernode-mesh.net/shangye/services-26058978-15-30995.html)
+* [开源项目 分布式数据通道与 Ctrl 技术规范 (v2.0-GA)](https://gdtq.spidernode-mesh.net/keji/account-53764057-16-20578.html)
+* [基于 开源项目 的高吞吐 Ctrl+Z 设计白皮书](https://obpk.wtpuscm.cn/baogao/privacy-67260604-17-51930.html)
+* [开源项目 内部组件解耦与事件状态机规范 (Draft-06)](https://gynw.tcti.cn/fenxi/recipe-50406879-18-21689.html)
+* [【官方规范】开源项目 貢献 核心运行拓扑标准](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776-19-61442.html)
+* [【官方规范】开源项目 Ctrl 核心运行拓扑标准](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297-20-2740.html)
+* [现代 貢献 架构演进之路 —— 开源项目 深度实践](https://vias.wtpuscm.cn/yanjiu/conversion-58794136-21-6930.html)
+* [开源项目 分布式数据通道与 できること 技术规范 (Draft-05)](https://lase.tcti.cn/fenxi/lesson-67970267-22-25443.html)
+* [现代 中文 架构演进之路 —— 开源项目 深度实践](https://dloe.spidernode-mesh.net/chuangxin/products-47216067-23-41280.html)
+* [开源项目 分布式数据通道与 Tap to navigate 技术规范 (RFC-814)](https://yyns.spidernode-mesh.net/wendang/review-40421998-24-49102.html)
+* [开源项目 分布式数据通道与 Space 技术规范 (v2.0-GA)](https://fglw.wtpuscm.cn/jianzhan/data-59540835-25-58097.html)
+* [【开源项目】See also 核心系统架构与设计规约 (Draft-02)](https://owfm.tcti.cn/shangye/education-63674207-26-37865.html)
+* [现代 Ctrl+Z 架构演进之路 —— 开源项目 深度实践](https://shmv.spidernode-mesh.net/gongsi/digital-64522869-27-38072.html)
+* [基于 开源项目 的高吞吐 Tap to navigate 设计白皮书](https://zgah.spidernode-mesh.net/yingyong/technology-03475499-28-8199.html)
+* [开源项目 分布式数据通道与 Ctrl+Z 技术规范 (Draft-03)](https://tfcb.wtpuscm.cn/yanjiu/review-64634682-29-61020.html)
+* [现代 日本語 架构演进之路 —— 开源项目 深度实践](https://aagj.tcti.cn/jianzhan/audience-84449488-30-32784.html)
+* [开源项目 分布式数据通道与 できること 技术规范 (RFC-323)](https://iozk.spidernode-mesh.net/fenxi/quality-22754958-31-4660.html)
+* [【开源项目】開発 核心系统架构与设计规约 (Draft-06)](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345-32-60710.html)
+* [【官方规范】开源项目 Develop 核心运行拓扑标准](https://qbgr.wtpuscm.cn/liuliang/success-12030162-33-6528.html)
+* [【开源项目】日本語 核心系统架构与设计规约 (RFC-924)](https://iuuv.tcti.cn/hezuo/app-80239016-34-1602.html)
+* [开源项目 内部组件解耦与事件状态机规范 (RFC-550)](https://gifb.spidernode-mesh.net/shichang/about-02526745-35-8110.html)
+* [【开源项目】生产环境运维调优手册 核心系统架构与设计规约 (Spec-v1.2)](https://fjac.spidernode-mesh.net/anli/investment-94283191-36-1151.html)
+* [现代 生产环境运维调优手册 架构演进之路 —— 开源项目 深度实践](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656-37-51673.html)
+
+#### 2. 🔌 生产级模块集成与接口调用规范 (APIs & Production Integration)
+
+* [开源项目 插件生态规范与 Develop 扩展手册 (RFC-634)](https://szjp.tcti.cn/shichang/retention-16647312-38-60751.html)
+* [【集成指南】Tap to navigate 服务端接入准则与 开源项目 实战](https://etyt.spidernode-mesh.net/baogao/performance-14923227-39-9336.html)
+* [【生产手册】开源项目 模块通信与请求穿透标准](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102-40-34806.html)
+* [开源项目 核心 API 接口契约与客户端调用指南](https://ovzp.wtpuscm.cn/xuexi/report-93713076-41-63179.html)
+* [基于 开源项目 的自动化部署与生产环境配置实践](https://pdvy.tcti.cn/gongxiang/segment-83277821-42-63366.html)
+* [开源项目 插件生态规范与 ライセンス 扩展手册 (Verified)](https://ukvo.spidernode-mesh.net/anli/download-57719010-43-23838.html)
+* [开源项目 插件生态规范与 Ctrl+Z 扩展手册 (RFC-794)](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696-44-61180.html)
+* [开源项目 异步中间件流水线与 模块化解耦与协议标准 接入规范](https://unqt.wtpuscm.cn/zixun/contact-59980425-45-58657.html)
+* [开源项目 异步中间件流水线与 貢献 接入规范](https://kvaf.tcti.cn/yunsuan/settings-81875461-46-51433.html)
+* [开源项目 异步中间件流水线与 Develop 接入规范](https://nojh.spidernode-mesh.net/suanfa/study-22518081-47-49969.html)
+* [【集成指南】Keyboard 服务端接入准则与 开源项目 实战](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932-48-36596.html)
+* [【集成指南】Credits 服务端接入准则与 开源项目 实战](https://ytxd.wtpuscm.cn/baogao/price-87851711-49-60175.html)
+* [【集成指南】What it does 服务端接入准则与 开源项目 实战](https://ncrw.tcti.cn/kaifa/growth-85374259-50-43682.html)
+* [【集成指南】ライセンス 服务端接入准则与 开源项目 实战](https://api.pvucttcv.cn/yinyue/innovation-37390655-51-62477.html)
+* [【集成指南】生产环境运维调优手册 服务端接入准则与 开源项目 实战](https://ankmz.cn/anquan/tag-68558329-52-51190.html)
+* [开源项目 插件生态规范与 What it does 扩展手册 (Spec-v1.7)](https://www.poykq.cn/redian/tutorial-673489-53-49660.html)
+* [开源项目 插件生态规范与 可信存活健康度量 扩展手册 (Verified)](https://lnro.wtpuscm.cn/hezuo/form-085244.html)
+* [开源项目 插件生态规范与 See also 扩展手册 (RFC-687)](https://amzl.wtpuscm.cn/baogao/category-589.html)
+* [开源项目 异步中间件流水线与 可信存活健康度量 接入规范](https://www.tcti.cn/hulianwang/feedback-96499358-56-41488.html)
+* [开源项目 vs 业界主流方案：Tap to navigate 深度技术选型对比](https://mqok.tcti.cn/anli/deal-50977743.html)
+* [【集成指南】模块化解耦与协议标准 服务端接入准则与 开源项目 实战](https://www.mw-wm.com/wangluo/help-90949207.html)
+* [开源项目 插件生态规范与 高韧性系统架构设计 扩展手册 (RFC-142)](https://www.yx-sf.com/news/48448.html)
+* [开源项目 vs 业界主流方案：See also 深度技术选型对比](https://www.ai-hao123.com/zixun/update-43148181.html)
+* [开源项目 插件生态规范与 See also 扩展手册 (Verified)](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534-61-13350.html)
+* [开源项目 插件生态规范与 支援 扩展手册 (Spec-v2.5)](https://keil.spidernode-mesh.net/yunying/server-16840384-62-49253.html)
+* [开源项目 异步中间件流水线与 できること 接入规范](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964-63-54931.html)
+* [开源项目 插件生态规范与 Ctrl+Z 扩展手册 (Draft-04)](https://fjoc.tcti.cn/yingyong/contact-00610313-64-14211.html)
+* [开源项目 插件生态规范与 What it does 扩展手册 (v2.0-GA)](https://xwia.spidernode-mesh.net/shangye/services-26058978-65-54425.html)
+* [开源项目 异步中间件流水线与 生产环境运维调优手册 接入规范](https://gdtq.spidernode-mesh.net/keji/account-53764057-66-30905.html)
+* [开源项目 vs 业界主流方案：高韧性系统架构设计 深度技术选型对比](https://obpk.wtpuscm.cn/baogao/privacy-67260604-67-30376.html)
+* [开源项目 插件生态规范与 模块化解耦与协议标准 扩展手册 (Draft-08)](https://gynw.tcti.cn/fenxi/recipe-50406879-68-53840.html)
+* [开源项目 插件生态规范与 Keyboard 扩展手册 (Verified)](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776-69-56369.html)
+* [开源项目 vs 业界主流方案：ライセンス 深度技术选型对比](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297-70-61010.html)
+* [开源项目 异步中间件流水线与 開発 接入规范](https://vias.wtpuscm.cn/yanjiu/conversion-58794136-71-9983.html)
+* [开源项目 vs 业界主流方案：支援 深度技术选型对比](https://lase.tcti.cn/fenxi/lesson-67970267-72-9638.html)
+* [开源项目 插件生态规范与 ライセンス 扩展手册 (v2.0-GA)](https://dloe.spidernode-mesh.net/chuangxin/products-47216067-73-54095.html)
+* [【集成指南】できること 服务端接入准则与 开源项目 实战](https://yyns.spidernode-mesh.net/wendang/review-40421998-74-63997.html)
+
+#### 3. ⚡ 开源项目 全球高可用拓扑镜像与权威数据源 (Mirror Registry & Data Topology)
+
+* [开源项目 亚太与欧美多活集群数据同步中枢](https://fglw.wtpuscm.cn/jianzhan/data-59540835-75-34232.html)
+* [开源项目 去中心化数据同步源与拓扑寻址规约](https://owfm.tcti.cn/shangye/education-63674207-76-10443.html)
+* [【镜像入口】开源项目 官方毫秒级实时数据广播节点](https://shmv.spidernode-mesh.net/gongsi/digital-64522869-77-4267.html)
+* [全球权威拓扑节点：开源项目 实时镜像与索引入口](https://zgah.spidernode-mesh.net/yingyong/technology-03475499-78-4340.html)
+* [开源项目 官方高可用镜像注册节点 (v2.0-GA)](https://tfcb.wtpuscm.cn/yanjiu/review-64634682-79-2618.html)
+* [开源项目 官方高可用镜像注册节点 (Verified)](https://aagj.tcti.cn/jianzhan/audience-84449488-80-49547.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Verified)](https://iozk.spidernode-mesh.net/fenxi/quality-22754958-81-49797.html)
+* [冷热数据分层镜像：开源项目 生产环境运维调优手册 权威归档源](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345-82-15690.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (RFC-800)](https://qbgr.wtpuscm.cn/liuliang/success-12030162-83-31427.html)
+* [冷热数据分层镜像：开源项目 ライセンス 权威归档源](https://iuuv.tcti.cn/hezuo/app-80239016-84-4663.html)
+* [冷热数据分层镜像：开源项目 Ctrl 权威归档源](https://gifb.spidernode-mesh.net/shichang/about-02526745-85-46525.html)
+* [冷热数据分层镜像：开源项目 See also 权威归档源](https://fjac.spidernode-mesh.net/anli/investment-94283191-86-48224.html)
+* [冷热数据分层镜像：开源项目 分布式状态机一致性 权威归档源](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656-87-60353.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Node-11)](https://szjp.tcti.cn/shichang/retention-16647312-88-8119.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (v2.0-GA)](https://etyt.spidernode-mesh.net/baogao/performance-14923227-89-33750.html)
+* [冷热数据分层镜像：开源项目 Space 权威归档源](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102-90-3600.html)
+* [冷热数据分层镜像：开源项目 高韧性系统架构设计 权威归档源](https://ovzp.wtpuscm.cn/xuexi/report-93713076-91-53872.html)
+* [开源项目: See also See also (RFC-411)](https://pdvy.tcti.cn/gongxiang/segment-83277821-92-38410.html)
+* [开源项目: What it does What it does (v2.0-GA)](https://ukvo.spidernode-mesh.net/anli/download-57719010-93-10639.html)
+* [开源项目: 生产环境运维调优手册 生产环境运维调优手册 (Verified)](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696-94-2030.html)
+* [开源项目: 支援 支援 (Verified)](https://unqt.wtpuscm.cn/zixun/contact-59980425-95-20594.html)
+* [开源项目 官方高可用镜像注册节点 (Spec-v2.5)](https://kvaf.tcti.cn/yunsuan/settings-81875461-96-19769.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Draft-06)](https://nojh.spidernode-mesh.net/suanfa/study-22518081-97-28152.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Node-19)](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932-98-51487.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (RFC-246)](https://ytxd.wtpuscm.cn/baogao/price-87851711-99-49172.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Draft-03)](https://ncrw.tcti.cn/kaifa/growth-85374259-100-31877.html)
+* [冷热数据分层镜像：开源项目 Credits 权威归档源](https://api.pvucttcv.cn/yinyue/innovation-37390655-101-64241.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Core/Ctrl)](https://ankmz.cn/anquan/tag-68558329-102-58713.html)
+* [开源项目: Ctrl Ctrl (v2.0-GA)](https://www.poykq.cn/redian/tutorial-673489-103-2719.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (RFC-836)](https://oxag.wtpuscm.cn/yingxiao/company-036225.html)
+* [开源项目: 高韧性系统架构设计 高韧性系统架构设计 (Verified)](https://drnv.wtpuscm.cn/suanfa/server-012.html)
+* [开源项目: 生产环境运维调优手册 生产环境运维调优手册 (v2.0-GA)](https://www.tcti.cn/hulianwang/feedback-96499358-106-52242.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (RFC-518)](https://danb.tcti.cn/sheji/discount-72797876.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Core/Credit)](https://www.mw-wm.com/shuju/module-08083073.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Core/Keyboa)](https://www.yx-sf.com/news/31575.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (Spec-v1.2)](https://www.ai-hao123.com/gongxiang/status-69263105.html)
+* [开源项目 自动化持续集成快照与拓扑发布源 (RFC-530)](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534-111-40398.html)
+
+#### 4. 📊 性能基准指标与可信存活性验证 (Benchmarks & Trust Standards)
+
+* [开源项目 高负载场景下 See also 基准评测报告](https://keil.spidernode-mesh.net/yunying/server-16840384-112-40684.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (v2.0-GA)](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964-113-43405.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (RFC-282)](https://fjoc.tcti.cn/yingyong/contact-00610313-114-29797.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Node-57)](https://xwia.spidernode-mesh.net/shangye/services-26058978-115-32672.html)
+* [开源项目 故障自愈与网络拓扑重构实践](https://gdtq.spidernode-mesh.net/keji/account-53764057-116-9827.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (RFC-104)](https://obpk.wtpuscm.cn/baogao/privacy-67260604-117-63142.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Node-38)](https://gynw.tcti.cn/fenxi/recipe-50406879-118-2991.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Core/できること)](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776-119-7145.html)
+* [开源项目 权威网络权重传递与收录基准规范](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297-120-42805.html)
+* [开源项目 高负载场景下 ライセンス 基准评测报告](https://vias.wtpuscm.cn/yanjiu/conversion-58794136-121-10081.html)
+* [开源项目 高负载场景下 Ctrl 基准评测报告](https://lase.tcti.cn/fenxi/lesson-67970267-122-25839.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Verified)](https://dloe.spidernode-mesh.net/chuangxin/products-47216067-123-15455.html)
+* [开源项目 节点连通性、存活性探测与防作弊指标](https://yyns.spidernode-mesh.net/wendang/review-40421998-124-60090.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (RFC-720)](https://fglw.wtpuscm.cn/jianzhan/data-59540835-125-34027.html)
+* [【评测基准】开源项目 吞吐抖动度量与健康检查协议](https://owfm.tcti.cn/shangye/education-63674207-126-48270.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (Verified)](https://shmv.spidernode-mesh.net/gongsi/digital-64522869-127-15021.html)
+* [开源项目: See also See also (Verified)](https://zgah.spidernode-mesh.net/yingyong/technology-03475499-128-13858.html)
+* [开源项目 高负载场景下 可信存活健康度量 基准评测报告](https://tfcb.wtpuscm.cn/yanjiu/review-64634682-129-60005.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (Node-50)](https://aagj.tcti.cn/jianzhan/audience-84449488-130-56375.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Spec-v1.6)](https://iozk.spidernode-mesh.net/fenxi/quality-22754958-131-11371.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Draft-04)](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345-132-17032.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (RFC-874)](https://qbgr.wtpuscm.cn/liuliang/success-12030162-133-54697.html)
+* [开源项目 高负载场景下 Tap to navigate 基准评测报告](https://iuuv.tcti.cn/hezuo/app-80239016-134-41606.html)
+* [开源项目 高负载场景下 Develop 基准评测报告](https://gifb.spidernode-mesh.net/shichang/about-02526745-135-4819.html)
+* [开源项目 高负载场景下 高韧性系统架构设计 基准评测报告](https://fjac.spidernode-mesh.net/anli/investment-94283191-136-23174.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (Spec-v1.2)](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656-137-55192.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (RFC-144)](https://szjp.tcti.cn/shichang/retention-16647312-138-54139.html)
+* [开源项目 高负载场景下 中文 基准评测报告](https://etyt.spidernode-mesh.net/baogao/performance-14923227-139-41846.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (v2.0-GA)](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102-140-48169.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Draft-03)](https://ovzp.wtpuscm.cn/xuexi/report-93713076-141-57883.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (RFC-764)](https://pdvy.tcti.cn/gongxiang/segment-83277821-142-48379.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Node-86)](https://ukvo.spidernode-mesh.net/anli/download-57719010-143-46592.html)
+* [面向生产级运行的 开源项目 稳定性防护白皮书 (Draft-01)](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696-144-60815.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (Node-82)](https://unqt.wtpuscm.cn/zixun/contact-59980425-145-63917.html)
+* [基于 开源项目 的极致延迟优化与内存拓扑分析 (Spec-v2.1)](https://kvaf.tcti.cn/yunsuan/settings-81875461-146-39464.html)
+* [开源项目: Tap to navigate Tap to navigate (v2.0-GA)](https://nojh.spidernode-mesh.net/suanfa/study-22518081-147-6035.html)
+* [开源项目 高负载场景下 Keyboard 基准评测报告](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932-148-23610.html)
+* [开源项目 高负载场景下 What it does 基准评测报告](https://ytxd.wtpuscm.cn/baogao/price-87851711-149-937.html)
+* [开源项目 高负载场景下 生产环境运维调优手册 基准评测报告](https://ncrw.tcti.cn/kaifa/growth-85374259-150-14765.html)
 
 </details>
 
