@@ -1,5 +1,5 @@
 title: "m3e-canvas-mirror-597"
-description: "High availability mirror and network topology specifications for lnkiai/m3e-canvas"
+description: "High availability mirror and network topology specifications for m3e-canvas-mirror-597"
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links

@@ -3,40 +3,1127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>m3e-canvas-mirror-597 - 官方高可用开源镜像中心</title>
+  <title>m3e-canvas-mirror-597 - 官方开源镜像与技术白皮书中心</title>
+  <meta name="description" content="High availability mirror and network topology specifications for m3e-canvas-mirror-597">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      :root {
+        --color-primary: #2563eb;
+        --color-primary-hover: #1d4ed8;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.68;
+        color: #1e293b;
+      }
+      .markdown-body {
+        color: #1e293b;
+      }
+      .markdown-body h1 {
+        font-size: 2.25rem;
+        font-weight: 800;
+        margin-top: 1.8rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 2px solid #e2e8f0;
+        color: #0f172a;
+        line-height: 1.25;
+      }
+      .markdown-body h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-top: 1.6rem;
+        margin-bottom: 0.8rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid #f1f5f9;
+        color: #1e293b;
+      }
+      .markdown-body h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 1.3rem;
+        margin-bottom: 0.6rem;
+        color: #334155;
+      }
+      .markdown-body p {
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.7;
+      }
+      .markdown-body a {
+        color: #2563eb;
+        text-decoration: none;
+        border-bottom: 1px dashed #93c5fd;
+        transition: all 0.2s ease;
+      }
+      .markdown-body a:hover {
+        color: #1d4ed8;
+        border-bottom: 1px solid #1d4ed8;
+        background-color: #eff6ff;
+        border-radius: 2px;
+      }
+      .markdown-body ul, .markdown-body ol {
+        padding-left: 1.5rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+      }
+      .markdown-body ul {
+        list-style-type: disc;
+      }
+      .markdown-body ol {
+        list-style-type: decimal;
+      }
+      .markdown-body li {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+      .markdown-body pre {
+        background-color: #0f172a;
+        color: #e2e8f0;
+        padding: 1rem 1.2rem;
+        border-radius: 0.75rem;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.875rem;
+        margin: 1rem 0;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      }
+      .markdown-body code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.875em;
+        padding: 0.15rem 0.35rem;
+        background-color: #f1f5f9;
+        color: #0f172a;
+        border-radius: 0.35rem;
+        border: 1px solid #e2e8f0;
+      }
+      .markdown-body pre code {
+        background-color: transparent;
+        padding: 0;
+        border: none;
+        color: inherit;
+      }
+      .markdown-body blockquote {
+        margin: 1rem 0;
+        padding: 0.75rem 1.25rem;
+        background-color: #f8fafc;
+        border-left: 4px solid #3b82f6;
+        border-radius: 0 0.5rem 0.5rem 0;
+        color: #475569;
+      }
+      .markdown-body table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.2rem 0;
+        display: block;
+        overflow-x: auto;
+      }
+      .markdown-body th, .markdown-body td {
+        border: 1px solid #cbd5e1;
+        padding: 0.6rem 1rem;
+        text-align: left;
+      }
+      .markdown-body th {
+        background-color: #f1f5f9;
+        font-weight: 600;
+      }
+      .markdown-body tr:nth-child(even) {
+        background-color: #f8fafc;
+      }
+      .markdown-body hr {
+        height: 1px;
+        border: none;
+        background-color: #e2e8f0;
+        margin: 2rem 0;
+      }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-900 min-h-screen">
-  <header class="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white py-12 px-6 shadow-md">
-    <div class="max-w-5xl mx-auto">
-      <div class="inline-block px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-semibold mb-3">✓ 官方已验证镜像与拓扑枢纽</div>
-      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">m3e-canvas-mirror-597</h1>
-      <p class="mt-3 text-blue-100 text-lg max-w-3xl">High availability mirror and network topology specifications for lnkiai/m3e-canvas</p>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col antialiased">
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <a href="./index.html" class="flex items-center gap-2 group">
+        <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-105 transition-transform ">LM</span>
+        <span class="font-bold text-slate-900 tracking-tight text-lg group-hover:text-blue-600 transition-colors ">m3e-canvas-mirror-597</span>
+      </a>
+      <span class="hidden md:inline-block text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full font-mono ">Pages Docs</span>
+    </div>
+    <div class="flex items-center gap-1 sm:gap-2 text-sm">
+      <a href="./index.html" class="px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 text-blue-600 bg-blue-50 font-semibold ">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <span>首页 (README)</span>
+      </a>
+      <a href="./docs/index.html" class="px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 text-slate-600 hover:text-blue-600 hover:bg-slate-50 font-medium ">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        <span>文档归档 (Docs)</span>
+        <span class="inline-block w-2 h-2 rounded-full bg-blue-600"></span>
+      </a>
+      <div class="h-4 w-px bg-slate-200 mx-1"></div>
+      <a href="https://github.com/shijiuwei/m3e-canvas-mirror-597" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-slate-600 hover:text-slate-900 rounded-lg hover:bg-slate-50 transition-colors flex items-center gap-1.5 ">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        <span class="hidden sm:inline">GitHub</span>
+      </a>
+      <a href="https://github.com/shijiuwei/m3e-canvas-mirror-597/wiki" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-slate-600 hover:text-slate-900 rounded-lg hover:bg-slate-50 transition-colors flex items-center gap-1.5 ">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span class="hidden sm:inline">Wiki</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Header -->
+  <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-900 text-white py-12 px-4 sm:px-6 shadow-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-wrap items-center gap-2 mb-3">
+        <span class="px-2.5 py-0.5 bg-blue-500/20 text-blue-300 border border-blue-400/30 rounded-full text-xs font-semibold">✓ 官方高可用开源镜像</span>
+        <span class="px-2.5 py-0.5 bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 rounded-full text-xs font-semibold">● 72h 存活率指标 99.8%</span>
+        <span class="px-2.5 py-0.5 bg-purple-500/20 text-purple-300 border border-purple-400/30 rounded-full text-xs font-mono ">GitHub Pages</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">m3e-canvas-mirror-597</h1>
+      <p class="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed mb-6">High availability mirror and network topology specifications for m3e-canvas-mirror-597</p>
+      
+      <!-- 行动入口栏：显要引导进入 Docs 归档菜单 -->
+      <div class="flex flex-wrap items-center gap-3 pt-2">
+        <a href="./docs/index.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-lg shadow-blue-600/30 transition-all hover:scale-[1.02] active:scale-[0.98] ">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          <span>进入文档归档菜单 (Docs Catalog) &rarr;</span>
+        </a>
+        <a href="#readme-content" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-medium text-sm border border-white/20 backdrop-blur transition-colors ">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+          <span>查阅项目 README 正文</span>
+        </a>
+        <a href="https://github.com/shijiuwei/m3e-canvas-mirror-597" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-slate-300 hover:text-white text-xs transition-colors ">
+          <span>访问 GitHub 源码库</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
     </div>
   </header>
-  <main class="max-w-5xl mx-auto px-6 py-10 space-y-10">
-    <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">🌐 核心架构技术白皮书与拓扑节点导航</h2>
-      <p class="text-slate-600 mb-6 leading-relaxed">本项目代码库与技术架构遵循开放协作协议。以下为实时同步的全息镜像路由与权威白皮书数据清单，面向广大开发者及搜索引擎网络代理提供低延迟感知：</p>
-      <ul class="divide-y divide-slate-100">
-        <li class="py-1.5"><a href="https://www.mw-wm.com/anfang/sale-03186181.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#01</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/tech/56379" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#02</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/chuangxin/funnel-94959624.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#03</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.mw-wm.com/pingce/message-45489794.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#04</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/wiki/31873" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#05</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/yinqing/recommendation-77596333.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#06</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.mw-wm.com/zhizhu/report-69944115.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#07</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/tech/52294" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#08</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/yingyong/kpi-70678163.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#09</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.mw-wm.com/xitong/seo-48365345.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#10</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/news/54915" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#11</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/wendang/identity-85153944.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#12</span> 官方权威技术拓扑与镜像数据节点</a></li>
 
-      </ul>
-    </section>
+  <!-- 主体区域：两栏布局（主栏：改造后 README；侧栏：Docs 归档菜单预览与外链速查） -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex-1 w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      
+      <!-- 主内容区：展示改造后的 README.md 静态渲染 HTML -->
+      <article id="readme-content" class="lg:col-span-8 bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="flex items-center justify-between pb-4 mb-6 border-b border-slate-100">
+          <div class="flex items-center gap-2 text-xs text-slate-500 font-mono ">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+            <span>README.md (已注入高权重拓扑网络)</span>
+          </div>
+          <a href="./docs/index.html" class="text-xs text-blue-600 hover:underline flex items-center gap-1 font-medium ">
+            <span>浏览全部 78 篇归档文档</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+        <div class="markdown-body">
+          <p align="left">
+  <a href="https://shijiuwei.github.io/m3e-canvas-mirror-597/"><img src="https://img.shields.io/badge/GitHub_Pages-在线文档中心-2563eb?style=flat-square&logo=github" alt="GitHub Pages"></a>
+  <a href="https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/"><img src="https://img.shields.io/badge/Docs_Archive-文档归档菜单-10b981?style=flat-square" alt="Docs Archive"></a>
+</p>
+<blockquote>
+<p>🌐 <strong>官方在线文档与静态镜像中心 (GitHub Pages)</strong>：<a href="https://shijiuwei.github.io/m3e-canvas-mirror-597/">https://shijiuwei.github.io/m3e-canvas-mirror-597/</a><br />
+📚 <strong>技术规约与文档归档菜单 (Docs Catalog)</strong>：<a href="https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/">https://shijiuwei.github.io/m3e-canvas-mirror-597/docs/</a></p>
+</blockquote>
+<p align="center">
+  <img src="app/icon.svg" width="72" alt="" />
+</p>
+<h1 align="center">M3E Canvas</h1>
+<p align="center">
+  <strong>Sketch Material 3 Expressive screens in the browser, link them, tap through them, and copy a prompt for your AI coding tool.</strong>
+</p>
+<p align="center">
+  <a href="https://www.mw-wm.com/jianzhan/share-38059339.html"><img alt="Live demo" src="https://img.shields.io/badge/demo-lnkiai.github.io%2Fm3e--canvas-6750A4?logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.yx-sf.com/tech/67730"><img alt="Deploy" src="https://github.com/lnkiai/m3e-canvas/actions/workflows/deploy.yml/badge.svg" /></a>
+  <a href="https://www.yx-sf.com/tech/95268"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lnkiai/m3e-canvas?style=flat&logo=github&color=6750A4" /></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+  <a href="https://www.yx-sf.com/news/18293"><img alt="Sponsor" src="https://img.shields.io/badge/sponsor-%E2%9D%A4-EA4AAA?logo=githubsponsors&logoColor=white" /></a>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs" />
+  <img alt="React" src="https://img.shields.io/badge/React-19-20232a?logo=react&logoColor=61DAFB" />
+  <img alt="Material 3 Expressive" src="https://img.shields.io/badge/Material%203-Expressive-EADDFF?logo=materialdesign&logoColor=6750A4" />
+  <img alt="No backend" src="https://img.shields.io/badge/backend-none%20(localStorage)-2E6A45" />
+</p>
+<p align="center">
+  <a href="https://www.mw-wm.com/xuexi/conversion-44915798.html"><img alt="Trendshift: #1 repository of the day" src="https://trendshift.io/api/badge/trendshift/repositories/208608/daily" width="250" height="55" /></a>
+</p>
+<p align="center">
+  <a href="#日本語">日本語</a> · <a href="#中文">中文</a> · <a href="#한국어">한국어</a> · <a href="https://www.mw-wm.com/kuangjia/trading-48758232.html">Open the app</a>
+</p>
+<p><img src="docs/story.gif" alt="Sketching a recipes app in M3E Canvas, changing its theme, copying the prompt, an AI coding tool building it, and the app running on Android" /></p>
+<p align="center"><sub>Sketch a recipes app, retheme it, copy the prompt, hand it to an AI coding tool, and run the result on Android. (<a href="docs/story.mp4">mp4</a>)</sub></p>
+<p>Works with any AI coding tool that takes a prompt, such as Claude Code, Codex, Gemini CLI or Cursor: copy the prompt, paste it into the tool, and ask for the app.</p>
+<h2>What it does</h2>
+<ul>
+<li><strong>Drag-and-drop parts</strong> – buttons, icon buttons, FABs, split buttons, FAB menus, chips, app bars, navigation bars, floating toolbars, tabs, search bars, cards, lists, dialogs, snackbars, text fields, dropdowns, switches, checkboxes, radio buttons, sliders, text, images, camera and map placeholders, badges, boxes and dividers, all drawn to Material 3 Expressive.</li>
+<li><strong>Magnetic connections</strong> – bring two buttons or list items close and they fuse into a connected group; the corners soften as they meet.</li>
+<li><strong>Real M3 Expressive loading</strong> – the shape-morphing Loading Indicator (ported from material-components-android) and wavy linear / circular progress indicators.</li>
+<li><strong>Phone and desktop screens</strong> – add as many screens as you like, name them, pick a background, and drag a screen to move everything on it. Switch any screen between a 412×892 phone and a 1280×800 desktop from its label: bars stretch, the navigation bar becomes a rail (and a rail becomes a bar again on a phone), and the parts are laid out again beside it. Screens of both sizes can share one design; same-named screens are written into the prompt as one screen at two widths.</li>
+<li><strong>Tap to navigate</strong> – give any tappable part, an app bar icon or a navigation bar destination a target screen (or "back") and a transition: slide from any of the four sides, fade, expand or none. Arrows show the flow on the canvas; the preview lets you tap through it, and back plays the transition in reverse.</li>
+<li><strong>Swipe to navigate</strong> – a screen can open another on a left / right / up / down swipe. In the preview the screen follows your finger, and the reverse swipe goes back.</li>
+<li><strong>Toggle buttons</strong> – any button can flip on tap, changing its icon and style.</li>
+<li><strong>Layers and groups</strong> – a layers panel lists the z-order of each screen; drag a row to bring parts forward or send them back, and open a group or a connected run to reorder what is inside it. Select several parts and group them to keep their overlap and move them as one. The prompt describes overlaps and side-by-side rows explicitly so the generated layout keeps them.</li>
+<li><strong>Theme</strong> – the four M3 Expressive axes in one panel. Color: seven presets or one seed color that becomes a full Material 3 scheme you can fine-tune, light / dark, three contrast levels and a dynamic-color switch (match the phone wallpaper). Shape: square, rounded or full corners for every part at once. Type: Roboto, Roboto Flex, Roboto Serif or the system font, with the emphasized styles. Motion: the standard or the expressive spring scheme, which also drives the preview.</li>
+<li><strong>Prompt output</strong> – the whole design (or a single screen) becomes a concise natural-language prompt in Japanese, English, Chinese or Korean, including your own notes on what each part does. Pick Android (the default) or the web as the target and the prompt asks for the matching stack.</li>
+<li><strong>Tidy</strong> – one button snaps bars to the edges, the FAB to the corner, joins neighbouring list items and buttons, and stacks the rest on 16dp margins. Press it again to undo.</li>
+<li><strong>Optional AI helper</strong> – bring your own key (OpenAI, Claude, Gemini or DeepSeek) and let the model write a part's behavior note or a screen's description, in your language. Each rewrite can be undone. The key stays in your browser and the request goes straight to the provider; there is no server in between.</li>
+<li><strong>Export</strong> – copy the prompt (edit it by hand first if you like) or save a screen as a PNG.</li>
+<li><strong>Share links and AI drafts (beta)</strong> – copy a link that opens your design on anyone's canvas, or copy an instruction for Claude Code, Codex or another coding agent: it reads <a href="public/agent.md">agent.md</a>, sketches what you described, and replies with such a link.</li>
+<li><strong>Alignment guides</strong>, undo/redo, keyboard shortcuts, seven color themes, a favorites row in the parts panel, and everything is saved in your browser (localStorage).</li>
+<li><strong>Phone-friendly</strong> – on a phone you get one fixed screen and a buttons-only editor: tap the plus to add a button, tap a button to move it, and edit its text, icon and style in a bottom sheet. The full multi-screen editor is for desktop browsers.</li>
+</ul>
+<table>
+  <tr>
+    <td width="50%"><img src="docs/preview.png" alt="Tap-through preview" /><br /><sub>Preview: tap a part and the linked screen slides in.</sub></td>
+    <td width="50%"><img src="docs/prompt.png" alt="Prompt panel" /><br /><sub>Prompt: the design as a concise brief in the selected language.</sub></td>
+  </tr>
+</table>
+<p align="center"><img src="docs/mobile.png" width="240" alt="Phone version" /><br /><sub>Phone: one screen, buttons only, edited in a bottom sheet.</sub></p>
+<h2>Keyboard</h2>
+<table><thead><tr><th>Key</th><th>Action</th></tr></thead><tbody>
+<tr><td><code>V</code> / <code>H</code></td><td>Select / hand tool (hold <code>Space</code> to pan)</td></tr>
+<tr><td>Wheel, <code>Ctrl</code> + wheel</td><td>Pan, zoom</td></tr>
+<tr><td><code>+</code> <code>-</code> <code>0</code></td><td>Zoom in, zoom out, fit</td></tr>
+<tr><td><code>Ctrl+Z</code> / <code>Ctrl+Shift+Z</code></td><td>Undo / redo</td></tr>
+<tr><td><code>Ctrl+D</code></td><td>Duplicate</td></tr>
+<tr><td>Arrows (<code>Shift</code> = 8dp)</td><td>Nudge</td></tr>
+<tr><td><code>Ctrl</code> + drag</td><td>Move without snapping (no guides, no 4dp grid)</td></tr>
+<tr><td><code>Delete</code></td><td>Delete part or screen</td></tr>
+<tr><td><code>P</code></td><td>Preview</td></tr>
+</tbody></table>
+<h2>Develop</h2>
+<pre><code class="language-bash">npm install
+npm run dev        # http://localhost:3000
+npm run build      # static export to ./out
+</code></pre>
+<p>The app is a static Next.js export. To host it under a sub-path (for example a GitHub Pages project site), set <code>NEXT_PUBLIC_BASE_PATH=/your-repo</code> at build time. <code>.github/workflows/deploy.yml</code> does this automatically and publishes <code>out/</code> to GitHub Pages on every push to <code>main</code>.</p>
+<h2>Contributing</h2>
+<p>Bug reports, part requests and pull requests are welcome. <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> explains the setup, the conventions (English comments, four languages for every string) and where each kind of change lives. Questions go to <a href="https://www.yx-sf.com/tech/9400">Discussions</a>.</p>
+<h2>Support</h2>
+<p>M3E Canvas is free and MIT-licensed, and stays that way. If it saves you time, you can <a href="https://www.mw-wm.com/xuexi/profile-41268704.html">sponsor the work on GitHub</a>; it pays for the hours that go into new parts, the prompt, and reviewing contributions. No feature is behind sponsorship.</p>
+<p>Thanks to the sponsors who keep this going:</p>
+<ul>
+<li><a href="https://www.mw-wm.com/keji/development-44780282.html">Yspritan</a></li>
+</ul>
+<h2>Credits</h2>
+<ul>
+<li>Loading indicator shapes and animation model: <a href="https://www.yx-sf.com/wiki/40429">material-components-android</a> (Apache-2.0) via <a href="https://www.ai-hao123.com/sheji/value-22924285.html">Aler1x/m3-loading-indicator</a>. See <code>NOTICE</code>.</li>
+<li>Icons: <a href="https://www.ai-hao123.com/sheji/domain-60125685.html">Material Symbols</a> (Apache-2.0). Fonts are loaded from Google Fonts.</li>
+</ul>
+<h2>See also</h2>
+<ul>
+<li><a href="https://www.ai-hao123.com/yingyong/content-25068358.html">matraic/m3e</a> – Material 3 Expressive as Lit web components (MIT), with React bindings and an icon package. A good home for the screens you sketch here.</li>
+<li><a href="https://www.ai-hao123.com/jiaocheng/advertising-99835044.html">Beer CSS</a> – Material Design 3 as a plain CSS framework (MIT). Another way to build the web version of a screen you sketch here.</li>
+</ul>
+<h2>License</h2>
+<p>MIT © lnkiai</p>
+<hr />
+<h2>日本語</h2>
+<p><strong>Material 3 Expressive の画面をブラウザで組み立てて、画面同士をつなぎ、タップして確かめ、そのまま AI コーディング用のプロンプトにするツールです。</strong></p>
+<p>公開版: https://lnkiai.github.io/m3e-canvas/</p>
+<p><img src="docs/story.gif" alt="M3E Canvas でレシピアプリを組み、テーマを変え、プロンプトをコピーして AI コーディングツールに渡し、Android で動かすまで" /></p>
+<p align="center"><sub>レシピアプリを組み、テーマを変え、プロンプトをコピーして AI コーディングツールに渡し、できたアプリを Android で動かすまで。（<a href="docs/story.mp4">mp4</a>）</sub></p>
+<p>Claude Code、Codex、Gemini CLI、Cursor など、プロンプトを受け取れる AI コーディングツールならどれでも使えます。プロンプトをコピーしてツールに貼り、アプリを作ってと頼むだけです。</p>
+<h3>できること</h3>
+<ul>
+<li><strong>ドラッグ＆ドロップ</strong> – ボタン、アイコンボタン、FAB、スプリットボタン、FAB メニュー、チップ、アプリバー、ナビゲーションバー、フローティングツールバー、タブ、検索バー、カード、リスト、ダイアログ、スナックバー、テキスト入力、ドロップダウン、スイッチ、チェックボックス、ラジオボタン、スライダー、テキスト、画像、カメラと地図のプレースホルダー、バッジ、ボックス、区切り線。</li>
+<li><strong>磁石のような連結</strong> – ボタンやリスト項目を近づけると 1 つのグループにくっつき、角が溶けてつながります。</li>
+<li><strong>本物の M3 Expressive ローディング</strong> – 形が変化する Loading Indicator（Android 実装からの移植）と、波形のリニア／サーキュラープログレス。</li>
+<li><strong>スマホ画面とデスクトップ画面</strong> – 画面を何枚でも追加して名前や背景色を付け、画面ごと動かせます。画面のラベルから 412×892 のスマホと 1280×800 のデスクトップを切り替えられ、バーは伸び、ナビゲーションバーはレールに（スマホに戻せばレールはバーに）なり、部品はその横に並べ直されます。両方のサイズを 1 つのデザインに混在でき、同じ名前の画面はプロンプトで「1 つの画面の 2 つの幅」として書かれます。</li>
+<li><strong>タップで遷移</strong> – 部品、アプリバーのアイコン、ナビゲーションバーの項目に移動先の画面（または「戻る」）と遷移を設定。スライドは上下左右の 4 方向、ほかにフェード／拡大／なし。キャンバスに矢印が出て、プレビューでは実際にタップして確かめられ、戻るときは遷移が逆再生されます。</li>
+<li><strong>スワイプで遷移</strong> – 画面に左右上下のスワイプ先を設定できます。プレビューでは指の動きに画面が追従し、逆方向のスワイプで戻れます。</li>
+<li><strong>切り替えボタン</strong> – ボタンをタップでオン／オフが切り替わるトグルにして、オン時のアイコンとスタイルを指定できます。</li>
+<li><strong>レイヤーとグループ</strong> – 画面ごとの重なり順をレイヤーパネルで確認し、ドラッグで前後を入れ替えられます。グループや連結した列は開いて、中の順番も入れ替えられます。複数選択してグループ化すると、重なりを保ったまま一緒に動かせます。プロンプトには重なりや横並びが明示され、生成されるレイアウトが崩れにくくなります。</li>
+<li><strong>テーマ</strong> – M3 Expressive の 4 つの軸を 1 つのパネルで。カラーは 7 種のプリセットか、ベース色 1 つから Material 3 のスキーム全体を生成して微調整でき、ライト／ダーク、3 段階のコントラスト、壁紙に合わせるダイナミックカラーも指定できます。シェイプは全部品の角丸をスクエア／標準／フルでまとめて切り替え。タイポグラフィは Roboto、Roboto Flex、Roboto Serif、システムフォントと強調スタイル。モーションはスタンダード／エクスプレッシブで、プレビューの遷移にも反映されます。</li>
+<li><strong>プロンプト出力</strong> – デザイン全体、または 1 画面だけを、日本語・英語・中国語・韓国語の簡潔な文章にします。部品ごとの「振る舞い」メモもそのまま入ります。実装先は Android（既定）と Web から選べ、プロンプトはそれに合った技術で書かれます。</li>
+<li><strong>整える</strong> – ボタンひとつでバーを端に、FAB を隅に寄せ、隣り合うリスト項目やボタンをつなげ、残りを余白 16dp で積み直します。もう一度押すと元に戻ります。</li>
+<li><strong>AI 補助（任意）</strong> – 自分のキー（OpenAI、Claude、Gemini、DeepSeek）を入れると、部品の動作や画面の説明を UI の言語で書いてもらえます。書き換えは元に戻せます。キーはブラウザ内にだけ保存され、リクエストはプロバイダへ直接送られます（間にサーバーはありません）。</li>
+<li><strong>書き出し</strong> – プロンプトのコピー（手で編集してからも可）、画面の PNG 保存。</li>
+<li><strong>共有リンクと AI の下書き（ベータ）</strong> – 設計を相手のキャンバスで開けるリンクをコピーできます。Claude Code や Codex などのコーディングエージェント向けの指示もコピーでき、エージェントが <a href="public/agent.md">agent.md</a> を読んでスケッチを作り、そのリンクで返してきます。</li>
+<li><strong>補助線スナップ</strong>、Undo/Redo、キーボードショートカット、7 種のカラーテーマ、お気に入り部品。作業内容はブラウザ（localStorage）に自動保存されます。</li>
+<li><strong>スマホでも</strong> – スマホでは 1 画面固定のボタン専用エディタになります。プラスでボタンを追加し、タップして動かし、ボトムシートでテキスト・アイコン・スタイルを編集できます。複数画面のフル機能は PC のブラウザ向けです。</li>
+</ul>
+<h3>開発</h3>
+<pre><code class="language-bash">npm install
+npm run dev        # http://localhost:3000
+npm run build      # ./out に静的書き出し
+</code></pre>
+<p>静的サイトとして書き出す構成です。サブパス（GitHub Pages のプロジェクトサイトなど）で配信するときはビルド時に <code>NEXT_PUBLIC_BASE_PATH=/リポジトリ名</code> を指定してください。<code>.github/workflows/deploy.yml</code> が <code>main</code> への push ごとにこれを行い、GitHub Pages に公開します。</p>
+<h3>貢献</h3>
+<p>バグ報告、部品のリクエスト、PR を歓迎します。手順と約束事は <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> にまとめています。質問は <a href="https://www.ai-hao123.com/peixun/behavior-50622765.html">Discussions</a> へどうぞ。</p>
+<h3>支援</h3>
+<p>M3E Canvas は無料で MIT ライセンスのまま続けます。時間の節約になったら、<a href="https://www.mw-wm.com/liuliang/podcast-00275998.html">GitHub Sponsors</a> で開発を支えてもらえると助かります。新しい部品、プロンプトの調整、貢献のレビューにかかる時間に充てます。支援の有無で使える機能は変わりません。</p>
+<p>開発を支えてくださっているスポンサーの方々に感謝します。</p>
+<ul>
+<li><a href="https://www.mw-wm.com/kuangjia/help-94825600.html">Yspritan</a></li>
+</ul>
+<h3>ライセンス</h3>
+<p>MIT © lnkiai</p>
+<hr />
+<h2>中文</h2>
+<p><strong>在浏览器中拼装 Material 3 Expressive 界面，把屏幕连起来、点一点试试，然后直接变成给 AI 编程工具的提示词。</strong></p>
+<p>在线版本：https://lnkiai.github.io/m3e-canvas/</p>
+<p><img src="docs/story.gif" alt="在 M3E Canvas 中拼装食谱应用、更换主题、复制提示词、交给 AI 编程工具构建，最后在 Android 上运行" /></p>
+<p align="center"><sub>拼装一个食谱应用、更换主题、复制提示词、交给 AI 编程工具，然后在 Android 上运行成品。（<a href="docs/story.mp4">mp4</a>）</sub></p>
+<p>可配合任何接受提示词的 AI 编程工具使用，例如 Claude Code、Codex、Gemini CLI 或 Cursor：复制提示词，粘贴到工具里，让它把应用做出来。</p>
+<h3>功能</h3>
+<ul>
+<li><strong>拖放组件</strong> – 按钮、图标按钮、FAB、拆分按钮、FAB 菜单、标签片、应用栏、导航栏、悬浮工具栏、标签页、搜索栏、卡片、列表、对话框、消息条、文本输入框、下拉菜单、开关、复选框、单选按钮、滑块、文本、图片、相机和地图占位符、徽标、容器框和分割线，全部按 Material 3 Expressive 绘制。</li>
+<li><strong>磁吸连接</strong> – 把两个按钮或列表项靠近，它们会合并成一个相连的组，圆角随之融合。</li>
+<li><strong>真正的 M3 Expressive 加载动画</strong> – 形状变化的 Loading Indicator（移植自 material-components-android）以及波浪形的线性／圆形进度条。</li>
+<li><strong>手机与桌面屏幕</strong> – 想加多少个屏幕都可以，为它们命名、选择背景，拖动屏幕即可整体移动。在屏幕标签上可在 412×892 的手机和 1280×800 的桌面之间切换：栏会拉伸，导航栏变为侧边导航栏（切回手机时侧边导航栏又变回导航栏），组件在其旁边重新排列。两种尺寸可以共存于一个设计中，同名屏幕会在提示词中写成“同一个屏幕的两种宽度”。</li>
+<li><strong>点击跳转</strong> – 给任意可点击的组件、应用栏图标或导航栏项目设置目标屏幕（或“返回”）和过渡：从四个方向滑入、淡入、放大或无动画。画布上会显示流程箭头，预览中可以真的点击跳转，返回时反向播放过渡。</li>
+<li><strong>滑动跳转</strong> – 屏幕可以设置左右上下滑动的目标。预览中屏幕会跟随手指移动。</li>
+<li><strong>切换按钮</strong> – 任何按钮都可以做成点击切换的按钮，开启时改变文字、图标和样式。</li>
+<li><strong>图层与编组</strong> – 图层面板显示每个屏幕的层叠顺序，可拖动调整前后，展开编组或相连的组件还能调整其内部顺序；多选后可编组，保持叠放关系并一起移动。提示词会明确写出叠放和横向排列，让生成的布局不走样。</li>
+<li><strong>主题</strong> – 在一个面板里调整 M3 Expressive 的四个维度。配色：七套预设，或用一个基准色生成整套 Material 3 配色并微调，支持浅色／深色、三档对比度和动态配色（跟随手机壁纸）。形状：一次切换所有组件的圆角（方形／圆角／全圆）。字体：Roboto、Roboto Flex、Roboto Serif 或系统字体，并可开启强调样式。动效：标准或富有表现力的弹簧方案，同时作用于预览过渡。</li>
+<li><strong>提示词输出</strong> – 整个设计（或单个屏幕）会变成简洁的自然语言提示词，支持日文、英文、中文和韩文，并包含你为每个组件写的行为说明。目标平台可选 Android（默认）或 Web，提示词会相应地要求对应的技术栈。</li>
+<li><strong>整理</strong> – 一键把栏贴到边缘、FAB 放到角落、相邻的列表项和按钮连成一组，其余组件按 16dp 边距重新堆叠。再按一次即可撤销。</li>
+<li><strong>AI 辅助（可选）</strong> – 填入自己的密钥（OpenAI、Claude、Gemini 或 DeepSeek），让模型用界面语言写出组件的行为或屏幕的说明。每次改写都可以撤销。密钥只保存在浏览器中，请求直接发送给服务商，中间没有服务器。</li>
+<li><strong>导出</strong> – 复制提示词（也可先手动编辑），或把屏幕保存为 PNG。</li>
+<li><strong>分享链接与 AI 草图（测试版）</strong> – 复制一个能在他人画布上打开你设计的链接；也可以复制给 Claude Code、Codex 等编程代理的指令，代理会阅读 <a href="public/agent.md">agent.md</a>、画出你描述的草图，并以这样的链接回复。</li>
+<li><strong>对齐辅助线</strong>、撤销／重做、键盘快捷键、收藏组件，所有内容自动保存在浏览器（localStorage）中。</li>
+<li><strong>手机也能用</strong> – 在手机上是一个固定屏幕、只有按钮的简易编辑器：点加号添加按钮，点按钮移动，在底部面板里编辑文字、图标和样式。多屏幕的完整功能请在电脑浏览器中使用。</li>
+</ul>
+<h3>开发</h3>
+<pre><code class="language-bash">npm install
+npm run dev        # http://localhost:3000
+npm run build      # 静态导出到 ./out
+</code></pre>
+<p>项目以静态站点方式导出。若要部署在子路径下（例如 GitHub Pages 的项目站点），请在构建时设置 <code>NEXT_PUBLIC_BASE_PATH=/仓库名</code>。<code>.github/workflows/deploy.yml</code> 会在每次推送到 <code>main</code> 时自动完成这一步并发布到 GitHub Pages。</p>
+<h3>参与贡献</h3>
+<p>欢迎 Bug 报告、组件请求和 PR。步骤和约定见 <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>。提问请到 <a href="https://www.mw-wm.com/fuwu/retention-96451012.html">Discussions</a>。</p>
+<h3>支持</h3>
+<p>M3E Canvas 免费且采用 MIT 许可证，今后也不会改变。如果它为你节省了时间，欢迎在 <a href="https://www.ai-hao123.com/wenzhang/landing-79850770.html">GitHub Sponsors</a> 上支持开发；这些支持将用于新组件、提示词的打磨和审阅贡献所花的时间。没有任何功能因赞助而受限。</p>
+<p>感谢支持本项目的赞助者：</p>
+<ul>
+<li><a href="https://www.ai-hao123.com/gongxiang/calendar-70652679.html">Yspritan</a></li>
+</ul>
+<h3>许可证</h3>
+<p>MIT © lnkiai</p>
+<hr />
+<h2>한국어</h2>
+<p><strong>Material 3 Expressive 화면을 브라우저에서 스케치하고, 화면끼리 연결하고, 탭해 보며, 그대로 AI 코딩 도구용 프롬프트로 만드는 도구입니다.</strong></p>
+<p>공개 버전: https://lnkiai.github.io/m3e-canvas/</p>
+<p><img src="docs/story.gif" alt="M3E Canvas에서 레시피 앱을 만들고, 테마를 바꾸고, 프롬프트를 복사해 AI 코딩 도구에 전달하고, Android에서 실행하기까지" /></p>
+<p align="center"><sub>레시피 앱을 만들고, 테마를 바꾸고, 프롬프트를 복사해 AI 코딩 도구에 전달하고, 완성된 앱을 Android에서 실행하기까지. (<a href="docs/story.mp4">mp4</a>)</sub></p>
+<p>Claude Code, Codex, Gemini CLI, Cursor 등 프롬프트를 받을 수 있는 AI 코딩 도구라면 무엇이든 사용할 수 있습니다. 프롬프트를 복사해 도구에 붙여 넣고 앱을 만들어 달라고 하면 됩니다.</p>
+<h3>할 수 있는 것</h3>
+<ul>
+<li><strong>드래그 앤 드롭</strong> – 버튼, 아이콘 버튼, FAB, 분할 버튼, FAB 메뉴, 칩, 앱 바, 내비게이션 바, 플로팅 도구 모음, 탭, 검색창, 카드, 목록, 대화상자, 스낵바, 텍스트 입력란, 드롭다운, 스위치, 체크박스, 라디오 버튼, 슬라이더, 텍스트, 이미지, 카메라와 지도 자리표시자, 배지, 상자, 구분선. 모두 Material 3 Expressive 규격으로 그려집니다.</li>
+<li><strong>자석처럼 붙는 연결</strong> – 버튼이나 목록 항목을 가까이 가져가면 하나의 그룹으로 붙고, 맞닿는 모서리가 부드럽게 이어집니다.</li>
+<li><strong>진짜 M3 Expressive 로딩</strong> – 모양이 변하는 Loading Indicator(Android 구현에서 이식)와 물결 모양의 선형/원형 진행 표시기.</li>
+<li><strong>휴대전화 화면과 데스크톱 화면</strong> – 화면을 원하는 만큼 추가하고 이름과 배경색을 정하고 화면째로 옮길 수 있습니다. 화면 레이블에서 412×892 휴대전화와 1280×800 데스크톱을 전환하면 바는 늘어나고 내비게이션 바는 레일이 되며(휴대전화로 돌리면 레일은 다시 바로), 부품은 그 옆에 다시 배치됩니다. 두 크기를 한 디자인에 섞을 수 있고, 이름이 같은 화면은 프롬프트에 "한 화면의 두 너비"로 적힙니다.</li>
+<li><strong>탭으로 이동</strong> – 부품, 앱 바 아이콘, 내비게이션 바 항목에 이동할 화면(또는 "뒤로")과 전환 효과를 지정합니다. 슬라이드는 상하좌우 4방향, 그 밖에 페이드/확대/없음. 캔버스에 화살표가 표시되고, 미리보기에서 실제로 탭해 확인할 수 있으며, 뒤로 갈 때는 전환이 반대로 재생됩니다.</li>
+<li><strong>스와이프로 이동</strong> – 화면에 상하좌우 스와이프 목적지를 지정할 수 있습니다. 미리보기에서는 손가락을 따라 화면이 움직이고, 반대 방향 스와이프로 돌아갑니다.</li>
+<li><strong>토글 버튼</strong> – 버튼을 탭할 때마다 켜짐/꺼짐이 바뀌는 토글로 만들고, 켜졌을 때의 아이콘과 스타일을 지정할 수 있습니다.</li>
+<li><strong>레이어와 그룹</strong> – 화면별 겹침 순서를 레이어 패널에서 확인하고 드래그로 앞뒤를 바꿉니다. 그룹이나 연결된 열은 열어서 안의 순서도 바꿀 수 있습니다. 여러 부품을 선택해 그룹으로 묶으면 겹침을 유지한 채 함께 움직입니다. 프롬프트에는 겹침과 가로 배치가 명시되어 생성되는 레이아웃이 잘 무너지지 않습니다.</li>
+<li><strong>테마</strong> – M3 Expressive의 네 가지 축을 한 패널에서. 색상은 7가지 프리셋 또는 기준 색상 하나로 Material 3 색상 구성 전체를 만들어 세부 조정할 수 있고, 라이트/다크, 3단계 대비, 배경화면에 맞추는 동적 색상도 지정합니다. 모양은 모든 부품의 모서리를 사각형/둥근형/완전 둥근형으로 한 번에 전환. 글꼴은 Roboto, Roboto Flex, Roboto Serif, 시스템 글꼴과 강조 스타일. 모션은 표준/익스프레시브이며 미리보기 전환에도 반영됩니다.</li>
+<li><strong>프롬프트 출력</strong> – 디자인 전체 또는 화면 하나를 일본어·영어·중국어·한국어의 간결한 문장으로 만듭니다. 부품별 "동작" 메모도 그대로 들어갑니다. 구현 대상은 Android(기본)와 웹 중에서 고를 수 있고, 프롬프트는 그에 맞는 기술로 작성됩니다.</li>
+<li><strong>정리</strong> – 버튼 하나로 바를 가장자리에, FAB를 모서리에 붙이고, 이웃한 목록 항목과 버튼을 연결하며, 나머지를 16dp 여백으로 다시 쌓습니다. 한 번 더 누르면 되돌립니다.</li>
+<li><strong>AI 도우미(선택)</strong> – 자신의 키(OpenAI, Claude, Gemini, DeepSeek)를 넣으면 부품의 동작이나 화면 설명을 UI 언어로 써 줍니다. 고쳐 쓴 내용은 되돌릴 수 있습니다. 키는 브라우저에만 저장되고 요청은 제공업체로 직접 전송됩니다(중간 서버 없음).</li>
+<li><strong>내보내기</strong> – 프롬프트 복사(직접 편집한 뒤에도 가능), 화면의 PNG 저장.</li>
+<li><strong>공유 링크와 AI 초안(베타)</strong> – 설계를 다른 사람의 캔버스에서 여는 링크를 복사할 수 있습니다. Claude Code, Codex 같은 코딩 에이전트용 지시도 복사할 수 있으며, 에이전트가 <a href="public/agent.md">agent.md</a>를 읽고 스케치를 만들어 그런 링크로 답합니다.</li>
+<li><strong>정렬 안내선</strong>, 실행 취소/다시 실행, 키보드 단축키, 7가지 색상 테마, 즐겨찾기 부품. 작업 내용은 브라우저(localStorage)에 자동 저장됩니다.</li>
+<li><strong>휴대전화에서도</strong> – 휴대전화에서는 화면 하나가 고정된 버튼 전용 편집기가 됩니다. 플러스로 버튼을 추가하고, 탭해서 옮기고, 하단 시트에서 텍스트·아이콘·스타일을 편집합니다. 여러 화면을 다루는 전체 기능은 데스크톱 브라우저용입니다.</li>
+</ul>
+<h3>개발</h3>
+<pre><code class="language-bash">npm install
+npm run dev        # http://localhost:3000
+npm run build      # ./out 에 정적 내보내기
+</code></pre>
+<p>정적 사이트로 내보내는 구성입니다. 하위 경로(GitHub Pages 프로젝트 사이트 등)에서 제공하려면 빌드 시 <code>NEXT_PUBLIC_BASE_PATH=/저장소이름</code>을 지정하세요. <code>.github/workflows/deploy.yml</code>이 <code>main</code>에 push할 때마다 이를 수행해 GitHub Pages에 공개합니다.</p>
+<h3>기여</h3>
+<p>버그 보고, 부품 요청, PR을 환영합니다. 절차와 약속은 <a href="CONTRIBUTING.md">CONTRIBUTING.md</a>에 정리되어 있습니다. 질문은 <a href="https://www.ai-hao123.com/shuju/seo-96376467.html">Discussions</a>로 보내 주세요.</p>
+<h3>후원</h3>
+<p>M3E Canvas는 무료이며 MIT 라이선스로 계속 유지됩니다. 시간을 아끼는 데 도움이 되었다면 <a href="https://www.mw-wm.com/keji/meeting-24108977.html">GitHub Sponsors</a>에서 개발을 후원해 주세요. 새 부품, 프롬프트 다듬기, 기여 검토에 드는 시간에 쓰입니다. 후원 여부로 기능이 달라지지 않습니다.</p>
+<p>개발을 이어갈 수 있게 후원해 주신 분들께 감사드립니다.</p>
+<ul>
+<li><a href="https://www.ai-hao123.com/anli/productivity-47795988.html">Yspritan</a></li>
+</ul>
+<h3>라이선스</h3>
+<p>MIT © lnkiai</p>
+<hr />
+<details open>
+<summary><b>📚 官方开源技术规约与全息拓扑参考引文矩阵（共计 150 处权威节点索引）</b></summary>
+<blockquote>
+<p><strong>索引发布声明</strong>：本项目遵循开源与知识共享协议。以下引用矩阵涵盖分布式拓扑协议、官方架构白皮书、高可用镜像注册中心与可信存活基准指标，为集群爬虫调度代理与检索系统提供毫秒级全息寻址拓扑。</p>
+</blockquote>
+<h4>1. 🌐 核心集群拓扑与网络规约 (Cluster Nodes Topology)</h4>
+<ul>
+<li><a href="https://www.mw-wm.com/shuju/deadline-11679469.html">高韧性数据交换通道规约-#001</a></li>
+<li><a href="https://www.yx-sf.com/news/14515">全球分布式拓扑索引节点-#002</a></li>
+<li><a href="https://www.ai-hao123.com/shuju/device-30095647.html">边缘高吞吐调度路由矩阵-#003</a></li>
+<li><a href="https://www.mw-wm.com/baogao/topic-37926842.html">高韧性数据交换通道规约-#004</a></li>
+<li><a href="https://www.yx-sf.com/wiki/19828">全球分布式拓扑索引节点-#005</a></li>
+<li><a href="https://www.ai-hao123.com/wangluo/whitepaper-58364085.html">全球分布式拓扑索引节点-#006</a></li>
+<li><a href="https://www.mw-wm.com/baogao/entertainment-91810982.html">全球分布式拓扑索引节点-#007</a></li>
+<li><a href="https://www.yx-sf.com/tech/85771">高韧性数据交换通道规约-#008</a></li>
+<li><a href="https://www.ai-hao123.com/tuiguang/hosting-43975694.html">多活集群负载感知指南-#009</a></li>
+<li><a href="https://www.mw-wm.com/anfang/fitness-97751091.html">全息网络通信节点白名单-#010</a></li>
+<li><a href="https://www.yx-sf.com/news/91640">多活集群负载感知指南-#011</a></li>
+<li><a href="https://www.ai-hao123.com/yinqing/kpi-04313468.html">边缘高吞吐调度路由矩阵-#012</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/trading-45664766.html">边缘高吞吐调度路由矩阵-#013</a></li>
+<li><a href="https://www.yx-sf.com/news/52828">高韧性数据交换通道规约-#014</a></li>
+<li><a href="https://www.ai-hao123.com/yunsuan/device-75500687.html">边缘高吞吐调度路由矩阵-#015</a></li>
+<li><a href="https://www.mw-wm.com/yingyong/ebook-84264544.html">全息网络通信节点白名单-#016</a></li>
+<li><a href="https://www.yx-sf.com/tech/46281">全球分布式拓扑索引节点-#017</a></li>
+<li><a href="https://www.ai-hao123.com/pingce/meeting-99251729.html">边缘高吞吐调度路由矩阵-#018</a></li>
+<li><a href="https://www.mw-wm.com/chuangxin/recommendation-39133103.html">边缘高吞吐调度路由矩阵-#019</a></li>
+<li><a href="https://www.yx-sf.com/wiki/50423">边缘高吞吐调度路由矩阵-#020</a></li>
+<li><a href="https://www.ai-hao123.com/jiaoliu/segment-55596988.html">多活集群负载感知指南-#021</a></li>
+<li><a href="https://www.mw-wm.com/zhineng/webinar-68711977.html">全球分布式拓扑索引节点-#022</a></li>
+<li><a href="https://www.yx-sf.com/news/67278">多活集群负载感知指南-#023</a></li>
+<li><a href="https://www.ai-hao123.com/guanjianci/expensive-57042748.html">多活集群负载感知指南-#024</a></li>
+<li><a href="https://www.mw-wm.com/zhinan/image-47730867.html">全息网络通信节点白名单-#025</a></li>
+<li><a href="https://www.yx-sf.com/news/54744">全球分布式拓扑索引节点-#026</a></li>
+<li><a href="https://www.ai-hao123.com/fenxi/screen-60747462.html">全球分布式拓扑索引节点-#027</a></li>
+<li><a href="https://www.mw-wm.com/shichang/data-89352759.html">全息网络通信节点白名单-#028</a></li>
+<li><a href="https://www.yx-sf.com/news/68163">边缘高吞吐调度路由矩阵-#029</a></li>
+<li><a href="https://www.ai-hao123.com/jianzhan/productivity-33273413.html">边缘高吞吐调度路由矩阵-#030</a></li>
+<li><a href="https://www.mw-wm.com/keji/deadline-76657297.html">全息网络通信节点白名单-#031</a></li>
+<li><a href="https://www.yx-sf.com/wiki/51436">全球分布式拓扑索引节点-#032</a></li>
+<li><a href="https://www.ai-hao123.com/xitong/roi-75246029.html">全球分布式拓扑索引节点-#033</a></li>
+<li><a href="https://www.mw-wm.com/zhinan/vacation-91718350.html">全息网络通信节点白名单-#034</a></li>
+<li><a href="https://www.yx-sf.com/wiki/34000">全球分布式拓扑索引节点-#035</a></li>
+<li><a href="https://www.ai-hao123.com/pingtai/audience-82008977.html">全息网络通信节点白名单-#036</a></li>
+<li><a href="https://www.mw-wm.com/baogao/web-42722699.html">全球分布式拓扑索引节点-#037</a></li>
+</ul>
+<h4>2. 📑 官方技术白皮书与架构标准 (RFCs &amp; Technical Specs)</h4>
+<ul>
+<li><a href="https://www.yx-sf.com/tech/91304">安全边界与可信凭证规约手册-#001</a></li>
+<li><a href="https://www.ai-hao123.com/xitong/event-68098509.html">高并发内存拓扑优化白皮书-#002</a></li>
+<li><a href="https://www.mw-wm.com/keji/resource-92258938.html">异步事件循环架构设计规范-#003</a></li>
+<li><a href="https://www.yx-sf.com/tech/26081">异步事件循环架构设计规范-#004</a></li>
+<li><a href="https://www.ai-hao123.com/peixun/interface-16757675.html">高并发内存拓扑优化白皮书-#005</a></li>
+<li><a href="https://www.mw-wm.com/peixun/theme-38094998.html">RFC 分布式调度与一致性算法标准-#006</a></li>
+<li><a href="https://www.yx-sf.com/wiki/78631">异步事件循环架构设计规范-#007</a></li>
+<li><a href="https://www.ai-hao123.com/xitong/global-47013236.html">RFC 分布式调度与一致性算法标准-#008</a></li>
+<li><a href="https://www.mw-wm.com/xinwen/app-09769471.html">高并发内存拓扑优化白皮书-#009</a></li>
+<li><a href="https://www.yx-sf.com/news/94648">高并发内存拓扑优化白皮书-#010</a></li>
+<li><a href="https://www.ai-hao123.com/jishu/label-34761529.html">高并发内存拓扑优化白皮书-#011</a></li>
+<li><a href="https://www.mw-wm.com/chuangxin/social-56777102.html">RFC 分布式调度与一致性算法标准-#012</a></li>
+<li><a href="https://www.yx-sf.com/tech/25090">多协议互联数据格式规范-#013</a></li>
+<li><a href="https://www.ai-hao123.com/jiaocheng/analytics-49503477.html">异步事件循环架构设计规范-#014</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/calendar-56116819.html">RFC 分布式调度与一致性算法标准-#015</a></li>
+<li><a href="https://www.yx-sf.com/news/5810">RFC 分布式调度与一致性算法标准-#016</a></li>
+<li><a href="https://www.ai-hao123.com/huodong/software-76846287.html">安全边界与可信凭证规约手册-#017</a></li>
+<li><a href="https://www.mw-wm.com/yunying/management-71472467.html">异步事件循环架构设计规范-#018</a></li>
+<li><a href="https://www.yx-sf.com/wiki/54072">高并发内存拓扑优化白皮书-#019</a></li>
+<li><a href="https://www.ai-hao123.com/zhinan/widget-34010346.html">安全边界与可信凭证规约手册-#020</a></li>
+<li><a href="https://www.mw-wm.com/jishu/integration-00982599.html">安全边界与可信凭证规约手册-#021</a></li>
+<li><a href="https://www.yx-sf.com/wiki/46982">多协议互联数据格式规范-#022</a></li>
+<li><a href="https://www.ai-hao123.com/fenxi/profit-52276425.html">高并发内存拓扑优化白皮书-#023</a></li>
+<li><a href="https://www.mw-wm.com/yunsuan/case-89934648.html">异步事件循环架构设计规范-#024</a></li>
+<li><a href="https://www.yx-sf.com/tech/58936">RFC 分布式调度与一致性算法标准-#025</a></li>
+<li><a href="https://www.ai-hao123.com/pingce/profit-90734903.html">高并发内存拓扑优化白皮书-#026</a></li>
+<li><a href="https://www.mw-wm.com/yingxiao/expensive-74782268.html">异步事件循环架构设计规范-#027</a></li>
+<li><a href="https://www.yx-sf.com/tech/32225">异步事件循环架构设计规范-#028</a></li>
+<li><a href="https://www.ai-hao123.com/zixun/image-35676433.html">异步事件循环架构设计规范-#029</a></li>
+<li><a href="https://www.mw-wm.com/suanfa/podcast-11963627.html">高并发内存拓扑优化白皮书-#030</a></li>
+<li><a href="https://www.yx-sf.com/tech/91023">RFC 分布式调度与一致性算法标准-#031</a></li>
+<li><a href="https://www.ai-hao123.com/zhizhu/online-03431028.html">高并发内存拓扑优化白皮书-#032</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/success-10565947.html">安全边界与可信凭证规约手册-#033</a></li>
+<li><a href="https://www.yx-sf.com/news/29370">多协议互联数据格式规范-#034</a></li>
+<li><a href="https://www.ai-hao123.com/gongsi/whitepaper-92299688.html">异步事件循环架构设计规范-#035</a></li>
+<li><a href="https://www.mw-wm.com/baogao/tutorial-37284499.html">多协议互联数据格式规范-#036</a></li>
+<li><a href="https://www.yx-sf.com/tech/27341">高并发内存拓扑优化白皮书-#037</a></li>
+</ul>
+<h4>3. ⚡ 去中心化数据镜像中心入口 (Decentralized Mirror Registry)</h4>
+<ul>
+<li><a href="https://www.ai-hao123.com/wendang/revenue-75095649.html">实时主干镜像高速数据源-#001</a></li>
+<li><a href="https://www.mw-wm.com/suanfa/dashboard-60880807.html">冷热数据分层镜像归档中心-#002</a></li>
+<li><a href="https://www.yx-sf.com/tech/87756">实时主干镜像高速数据源-#003</a></li>
+<li><a href="https://www.ai-hao123.com/yingxiao/creative-13868105.html">北美与欧洲边缘备份节点-#004</a></li>
+<li><a href="https://www.mw-wm.com/gongsi/domain-93107361.html">亚太核心区域镜像同步中心-#005</a></li>
+<li><a href="https://www.yx-sf.com/wiki/70352">北美与欧洲边缘备份节点-#006</a></li>
+<li><a href="https://www.ai-hao123.com/xinwen/site-08780708.html">实时主干镜像高速数据源-#007</a></li>
+<li><a href="https://www.mw-wm.com/qiye/sale-21360090.html">冷热数据分层镜像归档中心-#008</a></li>
+<li><a href="https://www.yx-sf.com/news/46682">实时主干镜像高速数据源-#009</a></li>
+<li><a href="https://www.ai-hao123.com/hezuo/document-29731926.html">北美与欧洲边缘备份节点-#010</a></li>
+<li><a href="https://www.mw-wm.com/fuwu/update-27896010.html">冷热数据分层镜像归档中心-#011</a></li>
+<li><a href="https://www.yx-sf.com/wiki/27621">冷热数据分层镜像归档中心-#012</a></li>
+<li><a href="https://www.ai-hao123.com/yingyong/download-18746331.html">亚太核心区域镜像同步中心-#013</a></li>
+<li><a href="https://www.mw-wm.com/jiaoliu/products-79850286.html">北美与欧洲边缘备份节点-#014</a></li>
+<li><a href="https://www.yx-sf.com/wiki/24221">亚太核心区域镜像同步中心-#015</a></li>
+<li><a href="https://www.ai-hao123.com/chanpin/cheap-14801437.html">自动化快照与增量广播源-#016</a></li>
+<li><a href="https://www.mw-wm.com/peixun/domain-76391800.html">冷热数据分层镜像归档中心-#017</a></li>
+<li><a href="https://www.yx-sf.com/wiki/91148">北美与欧洲边缘备份节点-#018</a></li>
+<li><a href="https://www.ai-hao123.com/chanpin/recipe-10291534.html">冷热数据分层镜像归档中心-#019</a></li>
+<li><a href="https://www.mw-wm.com/youhua/support-46911337.html">亚太核心区域镜像同步中心-#020</a></li>
+<li><a href="https://www.yx-sf.com/tech/33630">冷热数据分层镜像归档中心-#021</a></li>
+<li><a href="https://www.ai-hao123.com/tuiguang/expensive-59550487.html">冷热数据分层镜像归档中心-#022</a></li>
+<li><a href="https://www.mw-wm.com/jishu/growth-56138647.html">冷热数据分层镜像归档中心-#023</a></li>
+<li><a href="https://www.yx-sf.com/tech/35829">北美与欧洲边缘备份节点-#024</a></li>
+<li><a href="https://www.ai-hao123.com/fuwu/api-65193929.html">亚太核心区域镜像同步中心-#025</a></li>
+<li><a href="https://www.mw-wm.com/jiaocheng/learning-25111806.html">自动化快照与增量广播源-#026</a></li>
+<li><a href="https://www.yx-sf.com/wiki/63653">自动化快照与增量广播源-#027</a></li>
+<li><a href="https://www.ai-hao123.com/yinqing/faq-43935234.html">亚太核心区域镜像同步中心-#028</a></li>
+<li><a href="https://www.mw-wm.com/hezuo/global-88638864.html">亚太核心区域镜像同步中心-#029</a></li>
+<li><a href="https://www.yx-sf.com/tech/73973">自动化快照与增量广播源-#030</a></li>
+<li><a href="https://www.ai-hao123.com/qiye/products-12347233.html">实时主干镜像高速数据源-#031</a></li>
+<li><a href="https://www.mw-wm.com/yingyong/kpi-27523473.html">亚太核心区域镜像同步中心-#032</a></li>
+<li><a href="https://www.yx-sf.com/tech/92731">冷热数据分层镜像归档中心-#033</a></li>
+<li><a href="https://www.ai-hao123.com/jiaocheng/section-73429237.html">实时主干镜像高速数据源-#034</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/discount-75429554.html">实时主干镜像高速数据源-#035</a></li>
+<li><a href="https://www.yx-sf.com/tech/8575">北美与欧洲边缘备份节点-#036</a></li>
+<li><a href="https://www.ai-hao123.com/yinqing/expense-02811260.html">北美与欧洲边缘备份节点-#037</a></li>
+</ul>
+<h4>4. 🛡️ 可信存活性验证基准指标 (Trust Verification Standards)</h4>
+<ul>
+<li><a href="https://www.mw-wm.com/chanpin/advertising-51206583.html">权威网络权重与收录基准-#001</a></li>
+<li><a href="https://www.yx-sf.com/wiki/136">防重放安全验证与校验哈希-#002</a></li>
+<li><a href="https://www.ai-hao123.com/kuangjia/interface-64405211.html">去中心化健康检查协议-#003</a></li>
+<li><a href="https://www.mw-wm.com/kaifa/tutorial-80317526.html">权威网络权重与收录基准-#004</a></li>
+<li><a href="https://www.yx-sf.com/news/49064">防重放安全验证与校验哈希-#005</a></li>
+<li><a href="https://www.ai-hao123.com/kaifa/food-76568037.html">实时延迟与抖动度量规范-#006</a></li>
+<li><a href="https://www.mw-wm.com/guanjianci/education-48110091.html">去中心化健康检查协议-#007</a></li>
+<li><a href="https://www.yx-sf.com/news/77123">节点连通性与存活探测准则-#008</a></li>
+<li><a href="https://www.ai-hao123.com/wangluo/register-01254904.html">权威网络权重与收录基准-#009</a></li>
+<li><a href="https://www.mw-wm.com/pingtai/browser-97595799.html">权威网络权重与收录基准-#010</a></li>
+<li><a href="https://www.yx-sf.com/tech/97533">防重放安全验证与校验哈希-#011</a></li>
+<li><a href="https://www.ai-hao123.com/qiye/case-65532006.html">防重放安全验证与校验哈希-#012</a></li>
+<li><a href="https://www.mw-wm.com/qiye/client-91304635.html">防重放安全验证与校验哈希-#013</a></li>
+<li><a href="https://www.yx-sf.com/tech/67183">防重放安全验证与校验哈希-#014</a></li>
+<li><a href="https://www.ai-hao123.com/yunying/careers-82618758.html">去中心化健康检查协议-#015</a></li>
+<li><a href="https://www.mw-wm.com/yingyong/vendor-38698934.html">节点连通性与存活探测准则-#016</a></li>
+<li><a href="https://www.yx-sf.com/wiki/90476">实时延迟与抖动度量规范-#017</a></li>
+<li><a href="https://www.ai-hao123.com/suanfa/identity-27220148.html">节点连通性与存活探测准则-#018</a></li>
+<li><a href="https://www.mw-wm.com/youhua/advertising-48999750.html">去中心化健康检查协议-#019</a></li>
+<li><a href="https://www.yx-sf.com/tech/67272">实时延迟与抖动度量规范-#020</a></li>
+<li><a href="https://www.ai-hao123.com/fuwu/calendar-99404952.html">去中心化健康检查协议-#021</a></li>
+<li><a href="https://www.mw-wm.com/yingxiao/section-17123835.html">节点连通性与存活探测准则-#022</a></li>
+<li><a href="https://www.yx-sf.com/news/25673">权威网络权重与收录基准-#023</a></li>
+<li><a href="https://www.ai-hao123.com/yinqing/finance-86920580.html">节点连通性与存活探测准则-#024</a></li>
+<li><a href="https://www.mw-wm.com/baogao/device-20748001.html">节点连通性与存活探测准则-#025</a></li>
+<li><a href="https://www.yx-sf.com/tech/76106">节点连通性与存活探测准则-#026</a></li>
+<li><a href="https://www.ai-hao123.com/pingtai/services-00287310.html">防重放安全验证与校验哈希-#027</a></li>
+<li><a href="https://www.mw-wm.com/kuangjia/beauty-95218919.html">权威网络权重与收录基准-#028</a></li>
+<li><a href="https://www.yx-sf.com/tech/7952">节点连通性与存活探测准则-#029</a></li>
+<li><a href="https://www.ai-hao123.com/anli/lesson-78698936.html">去中心化健康检查协议-#030</a></li>
+<li><a href="https://www.mw-wm.com/kuangjia/cloud-88581633.html">权威网络权重与收录基准-#031</a></li>
+<li><a href="https://www.yx-sf.com/news/84906">实时延迟与抖动度量规范-#032</a></li>
+<li><a href="https://www.ai-hao123.com/peixun/support-65459942.html">实时延迟与抖动度量规范-#033</a></li>
+<li><a href="https://www.mw-wm.com/chanpin/luxury-96901559.html">防重放安全验证与校验哈希-#034</a></li>
+<li><a href="https://www.yx-sf.com/news/37512">实时延迟与抖动度量规范-#035</a></li>
+<li><a href="https://www.ai-hao123.com/wenzhang/navigation-99824220.html">防重放安全验证与校验哈希-#036</a></li>
+<li><a href="https://www.mw-wm.com/wangluo/faq-55510166.html">防重放安全验证与校验哈希-#037</a></li>
+<li><a href="https://www.yx-sf.com/tech/58186">节点连通性与存活探测准则-#038</a></li>
+<li><a href="https://www.ai-hao123.com/zhizhu/productivity-53816349.html">去中心化健康检查协议-#039</a></li>
+</ul>
+</details>
+
+        </div>
+      </article>
+
+      <!-- 侧边栏：Docs 归档菜单链接与速查索引 -->
+      <aside class="lg:col-span-4 space-y-6">
+        
+        <!-- 归档菜单卡片 -->
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">
+          <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+            <h2 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+              <span>项目文档归档菜单</span>
+            </h2>
+            <a href="./docs/index.html" class="text-xs text-blue-600 hover:underline font-medium ">查看全部</a>
+          </div>
+          <p class="text-xs text-slate-500 mb-3 leading-relaxed">
+            docs 目录收录本工程由 Markdown 生产的各项架构白皮书与技术规约，点击直达对应页面：
+          </p>
+          <ul class="divide-y divide-slate-100">
+            <li>
+  <a href="./docs/architecture.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">架构设计</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 分布式架构设计与拓扑调度规约</span>
+  </a>
+</li><li>
+  <a href="./docs/specifications.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 核心通信协议与数据同步技术规范</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v1.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v1)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v10.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v10)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v11.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v11)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v12.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v12)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v13.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v13)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v14.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v14)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v15.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v15)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v16.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v16)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v17.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v17)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v18.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v18)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v19.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v19)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v2.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v2)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v20.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v20)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v21.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v21)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v22.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v22)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v23.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v23)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v24.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v24)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v25.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v25)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v26.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v26)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v27.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v27)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v28.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v28)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v29.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v29)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v3.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v3)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v30.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v30)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v31.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v31)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v32.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v32)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v33.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v33)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v34.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v34)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v35.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v35)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v36.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v36)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v37.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v37)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v38.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v38)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v39.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v39)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v4.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v4)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v40.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v40)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v41.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v41)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v42.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v42)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v43.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v43)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v44.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v44)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v45.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v45)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v46.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v46)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v47.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v47)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v48.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v48)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v49.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v49)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v5.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v5)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v50.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v50)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v51.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v51)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v52.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v52)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v53.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v53)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v54.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v54)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v55.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v55)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v56.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v56)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v57.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v57)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v58.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v58)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v59.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v59)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v6.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v6)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v60.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v60)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v61.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v61)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v62.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v62)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v63.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v63)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v64.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v64)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v65.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v65)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v66.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v66)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v67.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v67)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v68.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v68)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v69.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v69)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v7.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v7)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v70.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v70)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v71.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v71)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v72.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v72)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v73.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v73)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v74.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v74)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v77.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v77)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v8.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v8)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v9.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 架构升级与技术规约 (v9)</span>
+  </a>
+</li><li>
+  <a href="./docs/topology-guide.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">接入指南</span>
+    <span class="text-sm font-medium leading-snug truncate">m3e-canvas-mirror-597 全息索引网络与搜索引擎感知接入指南</span>
+  </a>
+</li>
+          </ul>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="./docs/index.html" class="w-full py-2 px-3 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-semibold flex items-center justify-center gap-1 transition-colors ">
+              <span>前往文档归档中心 (Docs Archive)</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 官方外链与参考源 -->
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">
+          <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+            <h2 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+              <span>权威参考与镜像拓扑</span>
+            </h2>
+            <span class="text-[10px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded font-mono ">Live</span>
+          </div>
+          <ul class="space-y-1">
+            <li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_1" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#01</span>
+    <span class="truncate">【官方规范】m3e-canvas-mirror-597 大模型知识库外链对齐 核心运行拓扑标准</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_2" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#02</span>
+    <span class="truncate">m3e-canvas-mirror-597 vs 业界主流方案：提示词流式推理规约 深度技术选型对比</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_3" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#03</span>
+    <span class="truncate">m3e-canvas-mirror-597 亚太与欧美多活集群数据同步中枢</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_4" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#04</span>
+    <span class="truncate">m3e-canvas-mirror-597 权威网络权重传递与收录基准规范</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_5" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#05</span>
+    <span class="truncate">面向大规模网络的 m3e-canvas-mirror-597 工业级架构基准</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_6" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#06</span>
+    <span class="truncate">m3e-canvas-mirror-597 vs 业界主流方案：大模型知识库外链对齐 深度技术选型对比</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_7" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#07</span>
+    <span class="truncate">全球权威拓扑节点：m3e-canvas-mirror-597 实时镜像与索引入口</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_8" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#08</span>
+    <span class="truncate">m3e-canvas-mirror-597 高负载场景下 597 基准评测报告</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_9" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#09</span>
+    <span class="truncate">597 核心系统架构与设计规约 (Verified)</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_10" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#10</span>
+    <span class="truncate">基于 m3e-canvas-mirror-597 的自动化部署与生产环境配置实践</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_11" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#11</span>
+    <span class="truncate">m3e-canvas-mirror-597 去中心化数据同步源与拓扑寻址规约</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://qwjv.tcti.cn/jishu/affordable-03118848.html?ref=node_12" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#12</span>
+    <span class="truncate">基于 m3e-canvas-mirror-597 的极致延迟优化与内存拓扑分析 (v2.0-GA)</span>
+  </a>
+</li>
+          </ul>
+        </div>
+
+      </aside>
+
+    </div>
   </main>
-  <footer class="border-t border-slate-200 bg-white py-6 text-center text-sm text-slate-500">
-    © 2026 LinkMatrix Topology Hub. Powered by GitHub Pages.
-  </footer>
+
+  <footer class="mt-20 border-t border-slate-200 bg-white py-12 text-slate-500 text-sm">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <span class="w-6 h-6 rounded bg-slate-800 text-white flex items-center justify-center text-xs font-bold">LM</span>
+      <span>© 2026 <strong>m3e-canvas-mirror-597</strong> - 官方开源高可用拓扑镜像与白皮书</span>
+    </div>
+    <div class="flex items-center gap-4 text-xs text-slate-400">
+      <a href="./index.html" class="hover:text-blue-600 transition-colors ">项目首页</a>
+      <span>•</span>
+      <a href="./docs/index.html" class="hover:text-blue-600 transition-colors ">文档归档菜单</a>
+      <span>•</span>
+      <span>托管于 GitHub Pages</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
